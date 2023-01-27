@@ -57,7 +57,7 @@ const Staking2 = () => {
                                                 <i className={activeIndex === item.id ? "bi bi-chevron-down" : "bi bi-chevron-right"}></i>
                                             </div>
                                             <div className="stacking-img">
-                                                <img src="/images/igos/1.png" alt="" width={150} className="me-4" />
+                                                <img src="/launchpad-template/images/igos/1.png" alt="" width={150} className="me-4" />
                                                 <div className="stacking-desc">
                                                     <h4>GAME LP Staking</h4>
                                                     <span>GAME-BUSD / GAME</span>

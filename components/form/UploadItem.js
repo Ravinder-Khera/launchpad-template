@@ -38,7 +38,7 @@ function UploadItem() {
                                 <div className="d-flex align-items-center mb-3">
                                     <img
                                         className="me-3 rounded-circle me-0 me-sm-3"
-                                        src="images/items/1.jpg"
+                                        src="launchpad-template/images/items/1.jpg"
                                         width="55"
                                         height="55"
                                         alt=""

@@ -56,12 +56,12 @@ const TrendingSlider = () => {
                             <div className="card-body">
                                 <div className="items-img position-relative">
                                     <img
-                                        src={`/images/items/${item.img}`}
+                                        src={`/launchpad-template/images/items/${item.img}`}
                                         className="img-fluid rounded mb-3"
                                         alt=""
                                     />
                                     <img
-                                        src={`/images/avatar/${item.avatar}`}
+                                        src={`/launchpad-template/images/avatar/${item.avatar}`}
                                         className="creator"
                                         width="50"
                                         alt=""

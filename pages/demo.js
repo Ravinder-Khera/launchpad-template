@@ -190,7 +190,7 @@ function Demo() {
                         <div className="col-xl-7 col-md-7 py-md-5">
                             <div className="intro-demo_img">
                                 <img
-                                    src="/images/demo/intro.png"
+                                    src="/launchpad-template/images/demo/intro.png"
                                     alt=""
                                     className="img-fluid"
                                 />
@@ -217,7 +217,7 @@ function Demo() {
                                         <a>
                                             <div className="img-wrap">
                                                 <img
-                                                    src={`/images/demo/${item.img}`}
+                                                    src={`/launchpad-template/images/demo/${item.img}`}
                                                     alt=""
                                                     className="img-fluid"
                                                 />
@@ -244,7 +244,7 @@ function Demo() {
                                         <a>
                                             <div className="img-wrap">
                                                 <img
-                                                    src={`/images/demo/${item.img}`}
+                                                    src={`/launchpad-template/images/demo/${item.img}`}
                                                     alt=""
                                                     className="img-fluid"
                                                 />

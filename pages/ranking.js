@@ -61,7 +61,7 @@ const IgoRanking = () => {
                                                 {data.map((item, i) => (
                                                     <tr>
                                                         <td>01</td>
-                                                        <td><img src="/images/items/1.jpg" alt="Previous-Image" width={30} /> Dragon Run (DCON)</td>
+                                                        <td><img src="/launchpad-template/images/items/1.jpg" alt="Previous-Image" width={30} /> Dragon Run (DCON)</td>
                                                         <td>$25.00</td>
                                                         <td>3.88%</td>
                                                         <td>$26.99</td>

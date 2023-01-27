@@ -33,7 +33,7 @@ const CompleteList = () => {
                 <div className="col-xl-3 col-md-6">
                     <div className="card explore-list ">
                         <img
-                            src={`/images/items/${item.img}`}
+                            src={`/launchpad-template/images/items/${item.img}`}
                             alt=""
                             width={150}
                             className="card-img-top"

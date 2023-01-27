@@ -46,8 +46,8 @@ function HeaderLanding() {
                                 <nav className="navbar navbar-expand-lg navbar-dark">
                                     <div className="brand-logo">
                                         <Link href="/"><a>
-                                            <img src="/images/logo.png" alt="" className="logo-primary" />
-                                            <img src="/images/logow.png" alt="" className="logo-white" />
+                                            <img src="/launchpad-template/images/logo.png" alt="" className="logo-primary" />
+                                            <img src="/launchpad-template/images/logow.png" alt="" className="logo-white" />
                                         </a></Link>
                                     </div>
                                     {/* <div className="search">

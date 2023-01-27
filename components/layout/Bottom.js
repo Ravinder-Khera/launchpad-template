@@ -11,7 +11,7 @@ const Bottom = () => {
                             <div className="bottom-logo">
                                 <img
                                     className="pb-3"
-                                    src="/images/logo.png"
+                                    src="/launchpad-template/images/logo.png"
                                     alt=""
                                 />
 

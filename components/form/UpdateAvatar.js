@@ -48,7 +48,7 @@ function UpdateAvatar() {
                                 <div className="d-flex align-items-center mb-3">
                                     <img
                                         className="me-3 rounded-circle me-0 me-sm-3"
-                                        src="images/profile/3.png"
+                                        src="launchpad-template/images/profile/3.png"
                                         width="55"
                                         height="55"
                                         alt=""

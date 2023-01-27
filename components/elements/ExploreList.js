@@ -37,7 +37,7 @@ const ExploreList = () => {
                     <div className="card explore-list">
                         <div className="explore-list-banner">
                             <img
-                                src={`/images/items/${item.img}`}
+                                src={`/launchpad-template/images/items/${item.img}`}
                                 alt=""
                                 width={150}
                                 className="card-img-top"
@@ -48,7 +48,7 @@ const ExploreList = () => {
                         <div className="card-body">
 
                             <div className="explore-list-profile">
-                                <img src={`/images/avatar/${item.avatar}`} alt="" />
+                                <img src={`/launchpad-template/images/avatar/${item.avatar}`} alt="" />
                                 <h4 className="card-title">
                                     Hydraverse
                                 </h4>

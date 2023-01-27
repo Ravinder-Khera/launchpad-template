@@ -36,7 +36,7 @@ const ExploreGrid = () => {
                             TBA
                         </div>
                         <div className="explore-grid-content">
-                            <img src={`/images/items/${item.img}`} alt="" className="me-4" />
+                            <img src={`/launchpad-template/images/items/${item.img}`} alt="" className="me-4" />
                             <div className="game-desc">
                                 <h4>Pixel Pix</h4>
                                 <p>Unleash your creativity starting with one PIXEL. Create anything you can imagine in the PIXELVERSE or buy pre-made PIXIES.</p>

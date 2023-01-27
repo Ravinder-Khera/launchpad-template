@@ -18,7 +18,7 @@ function RecentActivity() {
                             <div className="d-flex align-items-center">
                                 <div className="activity-user-img me-3">
                                     <img
-                                        src="/images/avatar/1.jpg"
+                                        src="/launchpad-template/images/avatar/1.jpg"
                                         alt=""
                                         width="50"
                                     />
@@ -44,7 +44,7 @@ function RecentActivity() {
                             <div className="d-flex align-items-center">
                                 <div className="activity-user-img me-3">
                                     <img
-                                        src="/images/avatar/2.jpg"
+                                        src="/launchpad-template/images/avatar/2.jpg"
                                         alt=""
                                         width="50"
                                     />
@@ -70,7 +70,7 @@ function RecentActivity() {
                             <div className="d-flex align-items-center">
                                 <div className="activity-user-img me-3">
                                     <img
-                                        src="/images/avatar/3.jpg"
+                                        src="/launchpad-template/images/avatar/3.jpg"
                                         alt=""
                                         width="50"
                                     />
@@ -96,7 +96,7 @@ function RecentActivity() {
                             <div className="d-flex align-items-center">
                                 <div className="activity-user-img me-3">
                                     <img
-                                        src="/images/avatar/4.jpg"
+                                        src="/launchpad-template/images/avatar/4.jpg"
                                         alt=""
                                         width="50"
                                     />
@@ -122,7 +122,7 @@ function RecentActivity() {
                             <div className="d-flex align-items-center">
                                 <div className="activity-user-img me-3">
                                     <img
-                                        src="/images/avatar/5.jpg"
+                                        src="/launchpad-template/images/avatar/5.jpg"
                                         alt=""
                                         width="50"
                                     />

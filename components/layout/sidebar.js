@@ -9,12 +9,12 @@ function Sidebar() {
                 <div className="brand-logo">
                     <Link href="/dashboard">
                         <a className="full-logo">
-                            <img src="./images/logo.png" alt=""/>
+                            <img src="./launchpad-template/images/logo.png" alt=""/>
                         </a>
                     </Link>
                     {/* <Link href="/">
                         <a className="mini-logo">
-                            <img src="./images/logoi.png" alt="" width="40" />
+                            <img src="./launchpad-template/images/logoi.png" alt="" width="40" />
                         </a>
                     </Link> */}
                 </div>

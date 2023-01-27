@@ -113,7 +113,7 @@ const Index = () => {
 							<div className="col-lg-5">
 								<div className="what-we-do-img">
 									<img
-										src="/images/items/v2.jpg"
+										src="/launchpad-template/images/items/v2.jpg"
 										alt=""
 										className="img-fluid rounded"
 									/>
@@ -210,7 +210,7 @@ const Index = () => {
 							<div className="col-md-6">
 								<div className="creating-content">
 									<img
-										src="/images/items/4.jpg"
+										src="/launchpad-template/images/items/4.jpg"
 										class="img-fluid rounded"
 										alt=""
 									/>
@@ -228,7 +228,7 @@ const Index = () => {
 							<div className="col-md-6">
 								<div className="creating-content">
 									<img
-										src="/images/items/5.jpg"
+										src="/launchpad-template/images/items/5.jpg"
 										class="img-fluid rounded"
 										alt=""
 									/>
@@ -332,7 +332,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/1.png"
+										src="/launchpad-template/images/brand/1.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -341,7 +341,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/2.png"
+										src="/launchpad-template/images/brand/2.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -350,7 +350,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/3.png"
+										src="/launchpad-template/images/brand/3.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -359,7 +359,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/4.png"
+										src="/launchpad-template/images/brand/4.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -368,7 +368,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/5.png"
+										src="/launchpad-template/images/brand/5.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -377,7 +377,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/6.png"
+										src="/launchpad-template/images/brand/6.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -386,7 +386,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/7.png"
+										src="/launchpad-template/images/brand/7.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -395,7 +395,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/8.png"
+										src="/launchpad-template/images/brand/8.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -404,7 +404,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/9.png"
+										src="/launchpad-template/images/brand/9.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -413,7 +413,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/10.png"
+										src="/launchpad-template/images/brand/10.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -422,7 +422,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/11.png"
+										src="/launchpad-template/images/brand/11.png"
 										class="img-fluid"
 										alt=""
 									/>
@@ -431,7 +431,7 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/2.png"
+										src="/launchpad-template/images/brand/2.png"
 										class="img-fluid"
 										alt=""
 									/>

@@ -11,7 +11,7 @@ function Signin() {
                             <div className="mini-logo text-center my-4">
                                 <Link href="/">
                                     <a>
-                                        <img src="./images/logo.png" alt="" />
+                                        <img src="./launchpad-template/images/logo.png" alt="" />
                                     </a>
                                 </Link>
                                 <h4 className="card-title mt-5">
