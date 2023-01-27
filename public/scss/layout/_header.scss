@@ -6,10 +6,11 @@
     right: 0;
     z-index: 02;
     // transition: all 0.3s ease-in;
-    background: $body-bg;
+    background: $header-bg;
     box-shadow: $shadow;
+    border-bottom: 1px solid $body-color;
     &.bg-primary {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+        border-bottom: 1px solid $body-color !important;
     }
     @include respond("md") {
         // left     : 100px;
@@ -28,6 +29,7 @@
         }
         @include respond("sm") {
             display: block;
+            max-width: 150px !important; 
             img {
                 // max-width: 35px;
                 filter: none;
@@ -35,6 +37,10 @@
             span {
                 display: none;
             }
+        }
+        @include respond("xs") {
+            display: block;
+            max-width: 120px !important;
         }
     }
     &.landing {
@@ -51,6 +57,7 @@
             }
         }
         .brand-logo {
+            max-width: 200px;
             display: block;
             margin: 0px !important;
             img {
@@ -88,7 +95,7 @@
         margin: 0px;
         top: 25px !important;
         width: 330px;
-        box-shadow: 0 36px 48px rgba($color: #1b1994, $alpha: 0.08);
+        // box-shadow: 0 36px 48px rgba($color: #1b1994, $alpha: 0.08);
         border-radius: 5px;
         // background-color: #423A6F;
         h4 {
@@ -278,7 +285,7 @@
                 overflow-y: scroll;
                 overflow-x: hidden;
                 height: 350px;
-                background: $light;
+                // background: $light;
             }
             &>li {
                 display: inline-block;
@@ -286,9 +293,10 @@
                 // margin-left: 15px;
                 width: 100%;
                 @include respond("md") {
-                    border-bottom: 1px solid $border-color;
+                    border-bottom: 1px solid $body-color;
                     margin: 0 15px;
                     padding: 7px 15px;
+                    
                     // background: $primary;
                 }
                 &>a {
@@ -313,14 +321,14 @@
                     }
                 }
                 .dropdown-menu {
-                    background: $light;
+                    background: $header-bg;
                     padding: 15px 0;
                     display: block;
                     opacity: 0;
                     visibility: hidden;
                     z-index: 1030;
                     transition: all 0.2s ease-in-out;
-                    box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.15);
+                    // box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.15);
                     border: 0px;
                     margin-top: 10px;
                     z-index: 998;
@@ -359,11 +367,15 @@
                 .dropdown-menu {
                     border: 0px;
                     padding: 0px;
-                    background: $light;
+                    background: transparent;
                     a {
-                        border-bottom: 1px solid $border-color;
+                        border-bottom: 1px solid $body-color;
                         padding: 15px;
                         color: $body-color;
+                        &:hover{
+                            background: $header-bg !important;
+                            font-weight: 700;
+                        }
                         // background: #323232;
                         &:last-child {
                             border: 0px;

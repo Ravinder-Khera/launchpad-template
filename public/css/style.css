@@ -8865,10 +8865,11 @@ strong {
   left: 240px;
   right: 0;
   z-index: 02;
-  background: #161616;
-  box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.05); }
+  background: linear-gradient(270.01deg, #62171F 0.6%, #9D1E2E 49.55%, #9A1D2D 100.87%);
+  box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.05);
+  border-bottom: 1px solid #fff; }
   .header.bg-primary {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important; }
+    border-bottom: 1px solid #fff !important; }
   @media only screen and (max-width: 767px) {
     .header {
       left: 0;
@@ -8881,11 +8882,16 @@ strong {
         margin: 0px 20px 0px 0px; } }
     @media only screen and (max-width: 767px) {
       .header .brand-logo {
-        display: block; }
+        display: block;
+        max-width: 150px !important; }
         .header .brand-logo img {
           filter: none; }
         .header .brand-logo span {
           display: none; } }
+    @media only screen and (max-width: 575px) {
+      .header .brand-logo {
+        display: block;
+        max-width: 120px !important; } }
   .header.landing {
     padding: 20px 0px;
     left: 0px; }
@@ -8897,6 +8903,7 @@ strong {
         .header.landing a {
           justify-content: flex-start; } }
     .header.landing .brand-logo {
+      max-width: 200px;
       display: block;
       margin: 0px !important; }
       .header.landing .brand-logo img {
@@ -8926,7 +8933,6 @@ strong {
     margin: 0px;
     top: 25px !important;
     width: 330px;
-    box-shadow: 0 36px 48px rgba(27, 25, 148, 0.08);
     border-radius: 5px; }
     .notification .dropdown-menu h4, .notification .dropdown-menu .h4 {
       border-bottom: 1px solid #23243e;
@@ -9060,15 +9066,14 @@ strong {
         margin-top: 15px;
         overflow-y: scroll;
         overflow-x: hidden;
-        height: 350px;
-        background: #373737; } }
+        height: 350px; } }
     .navigation .navbar ul > li {
       display: inline-block;
       padding: 0px 5px;
       width: 100%; }
       @media only screen and (max-width: 991px) {
         .navigation .navbar ul > li {
-          border-bottom: 1px solid #23243e;
+          border-bottom: 1px solid #fff;
           margin: 0 15px;
           padding: 7px 15px; } }
       .navigation .navbar ul > li > a {
@@ -9085,14 +9090,13 @@ strong {
         position: relative;
         transition: all 0.2s ease-in-out; }
       .navigation .navbar ul .dropdown-menu {
-        background: #373737;
+        background: linear-gradient(270.01deg, #62171F 0.6%, #9D1E2E 49.55%, #9A1D2D 100.87%);
         padding: 15px 0;
         display: block;
         opacity: 0;
         visibility: hidden;
         z-index: 1030;
         transition: all 0.2s ease-in-out;
-        box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.15);
         border: 0px;
         margin-top: 10px;
         z-index: 998;
@@ -9113,11 +9117,14 @@ strong {
       .navigation .navbar ul .dropdown-menu {
         border: 0px;
         padding: 0px;
-        background: #373737; }
+        background: transparent; }
         .navigation .navbar ul .dropdown-menu a {
-          border-bottom: 1px solid #23243e;
+          border-bottom: 1px solid #fff;
           padding: 15px;
           color: #fff; }
+          .navigation .navbar ul .dropdown-menu a:hover {
+            background: linear-gradient(270.01deg, #62171F 0.6%, #9D1E2E 49.55%, #9A1D2D 100.87%) !important;
+            font-weight: 700; }
           .navigation .navbar ul .dropdown-menu a:last-child {
             border: 0px; }
           .navigation .navbar ul .dropdown-menu a i,
@@ -9200,10 +9207,12 @@ strong {
 .bottom {
   background: transparent;
   position: relative; }
-  .bottom .bottom-logo p {
-    color: #fff;
-    line-height: 30px;
-    font-weight: 400; }
+  .bottom .bottom-logo {
+    max-width: 200px; }
+    .bottom .bottom-logo p {
+      color: #fff;
+      line-height: 30px;
+      font-weight: 400; }
   @media only screen and (max-width: 991px) {
     .bottom .bottom-widget {
       margin-bottom: 30px; } }
