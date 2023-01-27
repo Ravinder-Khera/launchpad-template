@@ -12835,6 +12835,12 @@ button:hover, button:focus, button:active,
   }
 }
 
+.intro1 {
+  background: url("../images/bg/bannerHome.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .intro1 .intro-content h1, .intro1 .intro-content .h1 {
   font-size: 4rem;
   font-weight: 700;
