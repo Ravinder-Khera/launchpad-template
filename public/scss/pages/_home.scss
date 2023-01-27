@@ -137,15 +137,17 @@
 		}
 	}
 }
-
-.what-we-do-content {
-	@include respond('md'){
-		margin-top: 50px;
-	}
-	h3 {
-		font-size: 36px;
-		margin-top: 20px;
-		margin-bottom: 30px;
+.what-we-do{
+	background: linear-gradient(89.84deg, #9E1729 -13.86%, #841926 118.61%);
+	.what-we-do-content {
+		@include respond('md'){
+			margin-top: 50px;
+		}
+		h3 {
+			font-size: 36px;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
 	}
 }
 
