@@ -10,7 +10,7 @@ const Bottom = () => {
                         <div className="col-xl-4 col-lg-4 col-md-7 col-sm-8">
                             <div className="bottom-logo">
                                 <img
-                                    className="pb-3"
+                                    className="pb-3 img-fluid"
                                     src="/launchpad-template/images/logo.png"
                                     alt=""
                                 />

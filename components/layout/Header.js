@@ -20,6 +20,7 @@ function Header() {
                                                     src="./launchpad-template/images/logoi.png"
                                                     alt=""
                                                     width="40"
+                                                    className="img-fluid"
                                                 />
                                             </a>
                                         </Link>
