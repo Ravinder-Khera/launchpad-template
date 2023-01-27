@@ -17,10 +17,9 @@ function Header() {
                                         <Link href="/">
                                             <a className="mini-logo">
                                                 <img
-                                                    src="./launchpad-template/images/logoi.png"
+                                                    src="./launchpad/images/logoi.png"
                                                     alt=""
                                                     width="40"
-                                                    className="img-fluid"
                                                 />
                                             </a>
                                         </Link>
@@ -162,7 +161,7 @@ function Header() {
                                         >
                                             <div className="user icon-menu active">
                                                 <span>
-                                                    <img src="/launchpad-template/images/avatar/9.jpg" alt="" />
+                                                    <img src="/launchpad/images/avatar/9.jpg" alt="" />
                                                 </span>
                                             </div>
                                         </DropdownToggle>
@@ -174,7 +173,7 @@ function Header() {
                                                 <div className="user">
                                                     <span className="thumb">
                                                         <img
-                                                            src="./launchpad-template/images/profile/3.png"
+                                                            src="./launchpad/images/profile/3.png"
                                                             alt=""
                                                         />
                                                     </span>
