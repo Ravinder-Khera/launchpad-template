@@ -12675,13 +12675,21 @@ button:hover, button:focus, button:active,
   font-size: 14px;
 }
 
+.explore-list {
+  text-align: center;
+}
+.explore-list .explore-list-banner {
+  border-bottom: 1px solid #D01F36;
+}
 .explore-list .explore-list-profile {
   text-align: center;
-  margin-top: -50px;
+  margin-top: -75px;
 }
 .explore-list .explore-list-profile img {
   border-radius: 100px;
   margin-bottom: 15px;
+  width: 100px;
+  border: 2px solid #D01F36;
 }
 .explore-list .explore-list-profile h4, .explore-list .explore-list-profile .h4 {
   font-size: 22px;
@@ -12690,6 +12698,7 @@ button:hover, button:focus, button:active,
   font-size: 14px;
 }
 .explore-list .explore-list-profile .game-social {
+  display: none;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -12711,6 +12720,7 @@ button:hover, button:focus, button:active,
 
 .complete-progress {
   margin-bottom: 20px;
+  text-align: left;
 }
 .complete-progress span {
   margin: 15px 0px;
@@ -12718,15 +12728,16 @@ button:hover, button:focus, button:active,
 }
 .complete-progress .progress {
   height: 8px;
-  background-color: #444444;
+  background-color: #767AA7;
 }
 .complete-progress .progress .progress-bar {
   background-color: #f73164;
 }
 
 .explore-grid {
-  border: 2px solid #23243e;
+  border: 2px solid #373737;
   padding: 30px;
+  background: #373737;
   border-radius: 50px;
   margin-bottom: 30px;
 }
@@ -12764,9 +12775,10 @@ button:hover, button:focus, button:active,
 .explore-grid .game-desc .game-social a {
   color: #fff;
   margin-right: 15px;
+  font-size: 23px;
 }
 .explore-grid .game-info {
-  background: #373737;
+  background: #D01F36;
   text-align: center;
   border-radius: 50px;
   padding: 5px 12px;
@@ -12786,18 +12798,23 @@ button:hover, button:focus, button:active,
 }
 .explore-details-head .badge {
   margin-right: 10px;
-  background-color: #f3aeb7;
-  color: #D01F36;
+  background-color: #D01F36;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50px;
   margin-bottom: 20px;
   margin-top: 10px;
 }
 
 .explore-details-content ul {
   margin-bottom: 30px;
+  list-style: disc;
+  margin-left: 10px;
 }
 .explore-details-content ul li {
-  border-bottom: 1px solid #23243e;
+  border-bottom: 1px solid #AEAEAE;
   padding: 10px 0px;
+  list-style: disc;
 }
 .explore-details-content ul li:last-child {
   border: 0px;
@@ -12812,7 +12829,7 @@ button:hover, button:focus, button:active,
 .pool-details ul li,
 .token-metrics ul li,
 .distribution ul li {
-  border-bottom: 1px solid #23243e;
+  border-bottom: 1px solid #AEAEAE;
   padding: 10px 0px;
   display: flex;
 }
