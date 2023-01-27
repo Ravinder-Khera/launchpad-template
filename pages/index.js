@@ -40,7 +40,7 @@ const Index = () => {
 											</span>
 										</form>
 									</div>
-									<div className="intro-social">
+									{/* <div className="intro-social">
 										<Link href="#">
 											<a>
 												<i className="bi bi-facebook"></i>
@@ -66,7 +66,7 @@ const Index = () => {
 												<i className="bi bi-discord"></i>
 											</a>
 										</Link>
-									</div>
+									</div> */}
 								</div>
 							</div>
 							<div className="col-xl-6">

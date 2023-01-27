@@ -51,7 +51,7 @@ const IntroSlider = () => {
             >
                 {data.map((item, i) => (
                     <SwiperSlide>
-                        <div className="slider-item">
+                        <div className="slider-item" key={i}>
                             <img
                                 src={`/launchpad-template/images/items/${item.img}`}
                                 alt=""

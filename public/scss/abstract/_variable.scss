@@ -1,16 +1,17 @@
 // stylelint-disable-next-line scss/dollar-variable-default
-$primary: #001AFF;
+$primary: #D01F36;
 $secondary: #f73164 !default;
 $success: #51BB25 !default;
 $info: #A927F9 !default;
 $warning: #F8D62B !default;
 $danger: #DC3545 !default;
-$light: #16182D !default;
+$light: #373737 !default;
 $dark: #0E0B2B;
-$purple: #5848BB;
+$purple: #767AA7;
+$header-bg: linear-gradient(270.01deg, #62171F 0.6%, #9D1E2E 49.55%, #9A1D2D 100.87%);
 // Body
-$body-bg: #090A1A;
-$body-color: #9ca0d2;
+$body-bg: #161616;
+$body-color: #fff;
 // Typography
 $font-family-base: 'THICCCBOI',
 sans-serif;
