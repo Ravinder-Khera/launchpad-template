@@ -79,7 +79,7 @@ const ProjectDetails = () => {
                             <div className="col-xl-8">
                                 <div className="card">
                                     <div className="explorer-details-slider">
-                                        <img src="/launchpad-template/images/items/c1.png" className="img-fluid w-100 card-img-top" alt="" />
+                                        <img src="/launchpad-template/images/items/card1.png" className="img-fluid w-100 card-img-top" alt="" />
                                     </div>
                                     <div className="card-body">
                                         <div className="explore-details-about">
