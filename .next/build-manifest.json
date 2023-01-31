@@ -30,15 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/explore-grid.js"
     ],
-    "/reset": [
+    "/farming": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/reset.js"
+      "static/chunks/pages/farming.js"
     ],
     "/signin": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/signin.js"
+    ],
+    "/staking-one": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/staking-one.js"
     ]
   },
   "ampFirstPages": []
