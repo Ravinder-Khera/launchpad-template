@@ -13,10 +13,10 @@ const ExploreList = () => {
         },
         {
             id: 2,
-            title: "Mark",
-            img: "2.jpg",
-            avatar: "2.jpg",
-            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
+            title: "Record of Ragnarok",
+            img: "card2.png",
+            avatar: "a2.png",
+            description: "Every 1000 years, the Gods' Council assemble to decide the fate of humanity. After 7 million years of human history, the gods come to the decision that humans are irredeemable and must be extinct.",
             link: "/explore-details2"
         },
         {
@@ -77,7 +77,7 @@ const ExploreList = () => {
 
 
                             <p>
-                                {item.description.substring(0,75)} ...
+                                {item.description.substring(0,100)} ...
                             </p>
                             <div className="d-flex justify-content-between align-items-center">
 
