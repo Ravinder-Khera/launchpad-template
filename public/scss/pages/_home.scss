@@ -73,14 +73,17 @@
 	@include respond('lg'){
 		margin-top: 50px;
 	}
-	transition: transform 1s;
-	.swiper-slide-duplicate-active{
+	.swiper-slide{
+		transform: rotate3d(1, 1, 1, 0deg);
+		transition: transform 1s;
+	}
+	.swiper-slide.swiper-slide-duplicate-active{
 		transform: rotate3d(1, 1, 1, 0deg);
 	}
-	.swiper-slide-duplicate-prev{
+	.swiper-slide.swiper-slide-duplicate-prev{
 		transform: rotate3d(3, 2, 3, 45deg);
 	}
-	.swiper-slide-duplicate-next{
+	.swiper-slide.swiper-slide-duplicate-next{
 		transform: rotate3d(1, 1, 3, 320deg);
 	}
 	.slider-item {
