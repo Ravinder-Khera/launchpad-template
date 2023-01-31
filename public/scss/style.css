@@ -12935,7 +12935,6 @@ button:hover, button:focus, button:active,
   }
 }
 .intro-slider .swiper-slide {
-  transform: rotate3d(1, 1, 1, 0deg);
   transition: transform 1s;
 }
 .intro-slider .swiper-slide.swiper-slide-duplicate-active {

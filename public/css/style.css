@@ -9979,7 +9979,6 @@ button,
     .intro-slider {
       margin-top: 50px; } }
   .intro-slider .swiper-slide {
-    transform: rotate3d(1, 1, 1, 0deg);
     transition: transform 1s; }
   .intro-slider .swiper-slide.swiper-slide-duplicate-active {
     transform: rotate3d(1, 1, 1, 0deg); }
