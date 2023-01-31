@@ -28,7 +28,6 @@ const IntroSlider = () => {
 
 
     return (
-        <>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
@@ -75,8 +74,6 @@ const IntroSlider = () => {
                 </div> */}
             </Swiper>
 
-
-        </>
     );
 };
 

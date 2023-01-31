@@ -33,7 +33,7 @@ const ExploreList = () => {
         <>
             {data.map((item, i) => (
 
-                <div className="col-xl-3 col-md-6">
+                <div className="col-xl-3 col-md-6" key={i}>
                     <div className="card explore-list">
                         <div className="explore-list-banner">
                             <img
@@ -119,7 +119,7 @@ const ExploreList = () => {
                                 </div>
                             </div>
                             <hr />
-                            <Link href="#">
+                            <Link href="/explore-details">
                                 <a className="btn btn-primary w-100">
                                     Learn More
                                 </a>
