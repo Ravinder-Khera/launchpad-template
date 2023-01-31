@@ -7,12 +7,6 @@ const IntroSlider = () => {
 
     const data = [
         {
-            img: "bannerNew1.jpg",
-            avatar: "bannerNew1.png",
-            title: "The Sandbox",
-            author: "Sound Box"
-        },
-        {
             img: "hb.png",
             avatar: "2.png",
             title: "The Sandbox",
@@ -21,12 +15,6 @@ const IntroSlider = () => {
         {
             img: "wedo.png",
             avatar: "3.png",
-            title: "The Sandbox",
-            author: "Sound Box"
-        },
-        {
-            img: "4.jpg",
-            avatar: "4.png",
             title: "The Sandbox",
             author: "Sound Box"
         },
