@@ -34,7 +34,7 @@ function UpdateInfo() {
                                     name="email"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.email && touched.email
                                             ? " is-invalid"
                                             : "")
@@ -52,7 +52,7 @@ function UpdateInfo() {
                                     name="password"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.password && touched.password
                                             ? " is-invalid"
                                             : "")

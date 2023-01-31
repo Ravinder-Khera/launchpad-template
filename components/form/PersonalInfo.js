@@ -40,7 +40,7 @@ function PersonalInfo() {
                                     name="fullName"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.fullName && touched.fullName
                                             ? " is-invalid"
                                             : "")
@@ -59,7 +59,7 @@ function PersonalInfo() {
                                     name="email"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.email && touched.email
                                             ? " is-invalid"
                                             : "")
@@ -78,7 +78,7 @@ function PersonalInfo() {
                                     name="address"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.address && touched.address
                                             ? " is-invalid"
                                             : "")
@@ -97,7 +97,7 @@ function PersonalInfo() {
                                     name="city"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.city && touched.city
                                             ? " is-invalid"
                                             : "")
@@ -116,7 +116,7 @@ function PersonalInfo() {
                                     name="postal"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.postal && touched.postal
                                             ? " is-invalid"
                                             : "")
@@ -135,7 +135,7 @@ function PersonalInfo() {
                                     name="country"
                                     as="select"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.country && touched.country
                                             ? " is-invalid"
                                             : "")

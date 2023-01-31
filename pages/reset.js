@@ -28,7 +28,7 @@ const Reset = () => {
 
                                             <input
                                                 type="text"
-                                                className="form-control"
+                                                className="form-control border-white"
                                                 placeholder="***********"
                                             />
                                         </div>
@@ -45,7 +45,7 @@ const Reset = () => {
                                             Don't get code?
                                             <Link href="/otp-1">
                                             <a
-                                                className="text-primary"                                                
+                                                className="text-primary ms-1"                                                
                                             >
                                                 Resend
                                             </a>
