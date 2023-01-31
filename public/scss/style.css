@@ -11941,7 +11941,7 @@ strong {
 }
 
 .bottom {
-  background: transparent;
+  background: linear-gradient(90.16deg, #9A1728 0.14%, #881826 99.19%);
   position: relative;
 }
 .bottom .bottom-logo {
@@ -11972,7 +11972,7 @@ strong {
 
 .footer {
   border-top: 1px solid #D01F36;
-  background: #161616;
+  background: linear-gradient(270.01deg, #62171F 0.6%, #9D1E2E 49.55%, #9A1D2D 100.87%);
   padding: 20px 0px;
   position: relative;
   bottom: 0;
@@ -11998,6 +11998,7 @@ strong {
 }
 .footer .footer-social li a {
   color: #fff;
+  font-size: 25px;
   opacity: 0.5;
   padding: 0px 10px;
 }
@@ -13162,7 +13163,7 @@ button:hover, button:focus, button:active,
 }
 
 .team-content {
-  background: #373737;
+  background: transparent;
   text-align: center;
   padding: 30px 20px;
   border-radius: 8px;
@@ -13189,6 +13190,7 @@ button:hover, button:focus, button:active,
 .team-content .team-social a {
   color: #D01F36;
   margin: 0px 7px;
+  font-size: 25px;
 }
 
 #cd-timeline {

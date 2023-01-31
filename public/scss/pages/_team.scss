@@ -1,5 +1,5 @@
 .team-content {
-	background: $light;
+	background: transparent;
 	text-align: center;
 	padding: 30px 20px;
 	border-radius: $radius;
@@ -26,6 +26,7 @@
 		a {
 			color: $primary;
 			margin: 0px 7px;
+			font-size: 25px;
 		}
 	}
 }

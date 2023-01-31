@@ -9205,7 +9205,7 @@ strong {
   max-width: 500px; }
 
 .bottom {
-  background: transparent;
+  background: linear-gradient(90.16deg, #9A1728 0.14%, #881826 99.19%);
   position: relative; }
   .bottom .bottom-logo {
     max-width: 200px; }
@@ -9229,7 +9229,7 @@ strong {
 
 .footer {
   border-top: 1px solid #D01F36;
-  background: #161616;
+  background: linear-gradient(270.01deg, #62171F 0.6%, #9D1E2E 49.55%, #9A1D2D 100.87%);
   padding: 20px 0px;
   position: relative;
   bottom: 0; }
@@ -9249,6 +9249,7 @@ strong {
       display: inline-block; }
       .footer .footer-social li a {
         color: #fff;
+        font-size: 25px;
         opacity: 0.5;
         padding: 0px 10px; }
 
@@ -10161,7 +10162,7 @@ button,
     font-weight: 600; }
 
 .team-content {
-  background: #373737;
+  background: transparent;
   text-align: center;
   padding: 30px 20px;
   border-radius: 8px;
@@ -10182,7 +10183,8 @@ button,
     margin-top: 20px; }
     .team-content .team-social a {
       color: #D01F36;
-      margin: 0px 7px; }
+      margin: 0px 7px;
+      font-size: 25px; }
 
 #cd-timeline {
   position: relative;

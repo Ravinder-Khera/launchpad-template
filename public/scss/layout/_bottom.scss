@@ -1,5 +1,5 @@
 .bottom {
-    background: transparent;
+    background: $bottom-bg;
     position: relative;
     // &::after {
     //     content: "";
@@ -34,7 +34,7 @@
         ul {
             li {
                 a {
-                    color: $body-color;
+                    color: $white;
                     font-weight: 400;
                     margin-bottom: 10px;
                     display: inline-block;

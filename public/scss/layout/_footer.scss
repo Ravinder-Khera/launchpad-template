@@ -1,6 +1,6 @@
 .footer {
     border-top: 1px solid $border-color;
-    background: $body-bg;
+    background: $header-bg;
     padding: 20px 0px;
     position: relative;
     bottom: 0;
@@ -25,7 +25,8 @@
         li {
             display: inline-block;
             a {
-                color: $body-color;
+                color: $white;
+                font-size: 25px;
                 opacity: 0.5;
                 padding: 0px 10px;
             }

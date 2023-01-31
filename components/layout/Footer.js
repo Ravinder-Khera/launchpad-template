@@ -29,12 +29,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="bi bi-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="bi bi-youtube"></i>
+                                            <i className="bi bi-telegram"></i>
                                         </a>
                                     </li>
                                 </ul>
