@@ -121,7 +121,7 @@ function HeaderLanding() {
                                                                 <Link href="/farming"><a className="dropdown-item">Farming</a></Link>
                                                                 <Link href="/leaderboard"><a className="dropdown-item">Leaderboard</a></Link>
                                                                 <Link href="/ranking"><a className="dropdown-item">Ranking</a></Link>
-                                                                <Link href="/roadmap"><a className="dropdown-item">Roadmap</a></Link>
+                                                                {/* <Link href="/roadmap"><a className="dropdown-item">Roadmap</a></Link> */}
                                                                 {/* <Link href="/tokenomics"><a className="dropdown-item">Tokenomics</a></Link> */}
                                                                 {/* <Link href="/tier"><a className="dropdown-item">Tier</a></Link> */}
                                                                 <Link href="/team"><a className="dropdown-item">Team</a></Link>
