@@ -7,8 +7,8 @@ const IntroSlider = () => {
 
     const data = [
         {
-            img: "1.jpg",
-            avatar: "1.png",
+            img: "bannerNew1.jpg",
+            avatar: "bannerNew1.png",
             title: "The Sandbox",
             author: "Sound Box"
         },
