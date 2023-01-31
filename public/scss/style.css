@@ -82,7 +82,7 @@
   --bs-body-bg: #161616;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #23243e;
+  --bs-border-color: #D01F36;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 8px;
   --bs-border-radius-sm: 0.25rem;
@@ -11598,13 +11598,13 @@ strong {
   border-radius: 5px;
 }
 .notification .dropdown-menu h4, .notification .dropdown-menu .h4 {
-  border-bottom: 1px solid #23243e;
+  border-bottom: 1px solid #D01F36;
   padding-bottom: 15px;
   font-size: 16px;
 }
 .notification .dropdown-menu a {
   display: block;
-  border-bottom: 1px solid #23243e;
+  border-bottom: 1px solid #D01F36;
   padding: 10px 0px;
 }
 .notification .dropdown-menu a:last-child {
@@ -11722,7 +11722,7 @@ strong {
 }
 .profile_log .dropdown-menu .dropdown-item {
   padding: 10px 20px;
-  border-top: 1px solid #23243e;
+  border-top: 1px solid #D01F36;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -11971,7 +11971,7 @@ strong {
 }
 
 .footer {
-  border-top: 1px solid #23243e;
+  border-top: 1px solid #D01F36;
   background: #161616;
   padding: 20px 0px;
   position: relative;
@@ -12363,7 +12363,7 @@ strong {
 }
 
 .card {
-  border: 1px solid #23243e;
+  border: 1px solid #D01F36;
   margin-bottom: 30px;
   border-radius: 8px;
   box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.05);
@@ -12373,7 +12373,7 @@ strong {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0px solid #23243e;
+  border-bottom: 0px solid #D01F36;
   background: transparent;
   padding: 30px;
 }
@@ -12428,7 +12428,7 @@ strong {
 .form-control {
   border-radius: 5px;
   height: 45px;
-  border: 1px solid #23243e;
+  border: 1px solid #D01F36;
   padding: 0px 22px;
   font-size: 14px;
   color: #fff;
@@ -12449,7 +12449,7 @@ strong {
 .form-control:hover {
   box-shadow: none !important;
   outline: none;
-  border-color: #23243e;
+  border-color: #D01F36;
   color: #fff;
   background: #373737;
 }
@@ -12464,7 +12464,7 @@ strong {
 .form-select {
   border-radius: 5px;
   height: 45px;
-  border: 1px solid #23243e;
+  border: 1px solid #D01F36;
   padding: 0px 22px;
   font-size: 14px;
   color: #fff;
@@ -12472,7 +12472,7 @@ strong {
 .form-select:hover {
   box-shadow: none !important;
   outline: none;
-  border-color: #23243e;
+  border-color: #D01F36;
   color: #fff;
 }
 .form-select:focus, .form-select:active, .form-select.active {
@@ -12497,7 +12497,7 @@ input:-internal-autofill-selected {
   background: #373737;
   margin-bottom: 0px !important;
   color: #fff;
-  border-color: #23243e;
+  border-color: #D01F36;
   border-radius: 0px;
 }
 
@@ -12544,7 +12544,7 @@ button:hover, button:focus, button:active,
 
 .table th {
   color: #fff;
-  border-bottom: 0px solid #23243e;
+  border-bottom: 0px solid #D01F36;
 }
 
 .table-responsive-sm {
@@ -12643,7 +12643,7 @@ button:hover, button:focus, button:active,
   background: #373737;
   padding: 10px;
   border-radius: 16px;
-  border: 1px solid #23243e;
+  border: 1px solid #D01F36;
 }
 .demo_img img {
   border-radius: 5px;
@@ -13001,7 +13001,7 @@ button:hover, button:focus, button:active,
 }
 .mission-vission-content span {
   font-size: 36px;
-  border: 1px solid #23243e;
+  border: 1px solid #D01F36;
   height: 100px;
   width: 100px;
   display: inline-flex;
@@ -13043,7 +13043,7 @@ button:hover, button:focus, button:active,
 }
 
 .built-in-content {
-  border: 1px solid #23243e;
+  border: 1px solid #D01F36;
   border-radius: 8px;
   padding: 30px;
   background: #373737;
@@ -13099,7 +13099,7 @@ button:hover, button:focus, button:active,
 }
 .welcome-profile .card-body ul li {
   padding: 15px 0px;
-  border-bottom: 1px solid #23243e;
+  border-bottom: 1px solid #D01F36;
 }
 .welcome-profile .card-body ul li:last-child {
   border: 0px;
@@ -13133,7 +13133,7 @@ button:hover, button:focus, button:active,
 .profile-page .settings-menu {
   padding: 20px 0px;
   margin-top: 10px;
-  border-bottom: 1px solid #23243e;
+  border-bottom: 1px solid #D01F36;
 }
 .profile-page .settings-menu li:hover a, .profile-page .settings-menu li:focus a, .profile-page .settings-menu li.active a {
   color: #fff;
@@ -13150,13 +13150,13 @@ button:hover, button:focus, button:active,
   text-align: center;
   padding: 30px 20px;
   border-radius: 8px;
-  border: 1px solid #23243e;
+  border: 1px solid #D01F36;
   margin-top: 80px;
 }
 .team-content img {
   margin-bottom: 10px;
   margin-top: -80px;
-  border: 1px solid #23243e;
+  border: 1px solid #D01F36;
   display: inline-block;
   padding: 10px;
   background: #373737;
@@ -13190,7 +13190,7 @@ button:hover, button:focus, button:active,
   left: 25px;
   height: 100%;
   width: 4px;
-  background: #23243e;
+  background: #D01F36;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -13240,7 +13240,7 @@ button:hover, button:focus, button:active,
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px #23243e, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px #D01F36, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .cd-timeline-img {
@@ -13407,11 +13407,11 @@ button:hover, button:focus, button:active,
 
 .difference__row {
   display: flex;
-  border-bottom: 1px solid #23243e;
-  border-left: 1px solid #23243e;
+  border-bottom: 1px solid #D01F36;
+  border-left: 1px solid #D01F36;
 }
 .difference__row:first-child {
-  border-left: 0px solid #23243e;
+  border-left: 0px solid #D01F36;
 }
 
 .difference__section {
@@ -13430,7 +13430,7 @@ button:hover, button:focus, button:active,
   justify-content: center;
   font-size: 14px;
   padding: 10px;
-  border-right: 1px solid #23243e;
+  border-right: 1px solid #D01F36;
   line-height: 30px;
 }
 
