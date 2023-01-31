@@ -210,7 +210,7 @@ const Index = () => {
 							<div className="col-md-6">
 								<div className="creating-content">
 									<img
-										src="/launchpad-template/images/items/4.jpg"
+										src="/launchpad-template/images/items/new1.png"
 										class="img-fluid rounded"
 										alt=""
 									/>
@@ -228,7 +228,7 @@ const Index = () => {
 							<div className="col-md-6">
 								<div className="creating-content">
 									<img
-										src="/launchpad-template/images/items/5.jpg"
+										src="/launchpad-template/images/items/new2.png"
 										class="img-fluid rounded"
 										alt=""
 									/>
