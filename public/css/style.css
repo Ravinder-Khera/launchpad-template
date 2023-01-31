@@ -8861,6 +8861,7 @@ strong {
 
 .header {
   padding: 20px 0px;
+  min-height: 85px;
   position: fixed;
   top: 0;
   left: 240px;
@@ -8895,8 +8896,7 @@ strong {
         max-width: 120px !important; } }
   .header.landing {
     padding: 20px 0px;
-    left: 0px;
-    min-height: 85px; }
+    left: 0px; }
     .header.landing a {
       display: flex;
       align-items: center;
@@ -8910,7 +8910,8 @@ strong {
       margin: 0px !important; }
       .header.landing .brand-logo img {
         filter: none;
-        margin-right: 10px; }
+        margin-right: 10px;
+        max-height: 45px; }
       .header.landing .brand-logo span {
         display: block;
         top: 0; }

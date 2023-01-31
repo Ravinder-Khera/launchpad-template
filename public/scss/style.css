@@ -11498,6 +11498,7 @@ strong {
 
 .header {
   padding: 20px 0px;
+  min-height: 85px;
   position: fixed;
   top: 0;
   left: 240px;
@@ -11546,7 +11547,6 @@ strong {
 .header.landing {
   padding: 20px 0px;
   left: 0px;
-  min-height: 85px;
 }
 .header.landing a {
   display: flex;
@@ -11566,6 +11566,7 @@ strong {
 .header.landing .brand-logo img {
   filter: none;
   margin-right: 10px;
+  max-height: 45px;
 }
 .header.landing .brand-logo span {
   display: block;
