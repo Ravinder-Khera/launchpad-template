@@ -43,10 +43,10 @@ const IntroSlider = () => {
                     delay: 2500,
                     disableOnInteraction: false
                 }}
-                navigation={{
-                    prevEl: ".intro_prev",
-                    nextEl: ".intro_next",
-                }}
+                // navigation={{
+                //     prevEl: ".intro_prev",
+                //     nextEl: ".intro_next",
+                // }}
                 className="custom-class"
             >
                 {data.map((item, i) => (
@@ -71,14 +71,14 @@ const IntroSlider = () => {
                     </SwiperSlide>
                 ))}
 
-                <div className="arrows">
+                {/* <div className="arrows">
                     <span className="intro_prev">
                         <i className="bi bi-arrow-left"></i>
                     </span>
                     <span className="intro_next">
                         <i className="bi bi-arrow-right"></i>
                     </span>
-                </div>
+                </div> */}
             </Swiper>
 
 
