@@ -5,11 +5,12 @@ const ProjectDetails = () => {
 
     return (
         <>
+        
             <LayoutFront
                 pageClass={"front"}
-                headTitle={"Explore Details"}
-                pageTitle={"Explore Details"}
-                pageTitleSub={"Welcome Explore Details Page"}
+                headTitle={"Record of Ragnarok"}
+                pageTitle={"Record of Ragnarok"}
+                pageTitleSub={"Welcome toRecord of Ragnarok Page"}
                 parent={"Home"}
                 child={"Explore Details"}
             >
@@ -20,7 +21,7 @@ const ProjectDetails = () => {
                             <div className="col-xl-4">
                                 <div className="explore-details-head">
                                     <h2>Record of Ragnarok</h2>
-                                    <h6>RETH / BUSD</h6>
+                                    <h6>RETH / SSDC</h6>
 
                                     <div className="badge-group">
                                         <span className="mb-3 badge"> Registered</span>
@@ -35,8 +36,8 @@ const ProjectDetails = () => {
                                             {/* <Link href="/">
                                                 <a className="btn btn-primary">Connect</a>
                                             </Link> */}
-                                            <h5>1 BUSD = 33.2999 RETH</h5>
-                                            <h6>1 RETH = 0.03 BUSD</h6>
+                                            <h5>1 SSDC = 21.9335 RETH</h5>
+                                            <h6>1 RETH = 0.10 SSDC</h6>
 
                                             <div className="complete-progress">
                                                 <div className="d-flex justify-content-between">
@@ -54,8 +55,8 @@ const ProjectDetails = () => {
                                                     />
                                                 </div>
                                                 <div className="d-flex justify-content-between">
-                                                    <span>0 BUSD</span>
-                                                    <span>0 / 568742648.35 RETH</span>
+                                                    <span>0 SSDC</span>
+                                                    <span>0 / {Math.random()} RETH</span>
                                                 </div>
                                             </div>
 
@@ -79,11 +80,11 @@ const ProjectDetails = () => {
                             <div className="col-xl-8">
                                 <div className="card">
                                     <div className="explorer-details-slider">
-                                        <img src="/launchpad-template/images/items/card2.png" className="img-fluid w-100 card-img-top" alt="" />
+                                        <img src="/launchpad-template/images/items/3.jpg" className="img-fluid w-100 card-img-top" alt="" />
                                     </div>
                                     <div className="card-body">
                                         <div className="explore-details-about">
-                                            <p>The Gods' Council assembles once every millennium to decide the fate of humanity, deciding that mankind’s 7 million years of irredeemable history gives justification for their extinction. But the valkyrie Brunhilde proposes giving humanity one last chance to prove their worth and the gods agree to hold the tournament of Ragnarok, where humanity will be spared if they can best the gods in seven out of thirteen matches. Humanity’s representatives are the Einherjar, notable humans across history who are each granted a valkyrie who becomes a powerful weapon tailored for their user's combat style called "Volund", at the risk of losing her life if the user is killed.</p>
+                                        <p>The Gods' Council assembles once every millennium to decide the fate of humanity, deciding that mankind’s 7 million years of irredeemable history gives justification for their extinction. But the valkyrie Brunhilde proposes giving humanity one last chance to prove their worth and the gods agree to hold the tournament of Ragnarok, where humanity will be spared if they can best the gods in seven out of thirteen matches. Humanity’s representatives are the Einherjar, notable humans across history who are each granted a valkyrie who becomes a powerful weapon tailored for their user's combat style called "Volund", at the risk of losing her life if the user is killed.</p>
                                             <div className="social-link">
                                                 <Link href="#">
                                                     <a><i className="bi bi-facebook"></i></a>
@@ -109,12 +110,12 @@ const ProjectDetails = () => {
                                         <div className="pool-details">
                                             <ul>
                                                 <li><span>Access Type : </span> 	Levels</li>
-                                                <li><span>Hard Cap : </span> 	$161 661</li>
-                                                <li><span>Swap Rate : </span> 	1 RETH = $0.03 | 33.2999 RETH per 1 BUSD</li>
+                                                <li><span>Hard Cap : </span> 	${Math.floor(Math.random() * 10000)}</li>
+                                                <li><span>Swap Rate : </span> 	1 RETH = $0.03 | {Math.random()} RETH per 1 SSDC</li>
                                                 <li><span>Start/end : </span> 	13 Apr, 11:00 am –16:00 pm UTC</li>
                                                 <li><span>Registration : </span> 	Apr 11, 11:00 UTC –Apr 13, 08:00 UTC</li>
                                                 <li><span>FCFS Opens : </span> 	Apr 13, 15:40 UTC UTC (20m before the end)</li>
-                                                <li><span>Base Allocation : </span> 	1x = $31.02 (approx)</li>
+                                                <li><span>Base Allocation : </span> 	1x = ${Math.random()} (approx)</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -142,23 +143,23 @@ const ProjectDetails = () => {
                                                 </li>
                                                 <li>
                                                     <span>Initial Supply:</span>
-                                                    433,250,000 RETH
+                                                    {Math.floor(Math.random() * 100000000)} RETH
                                                 </li>
                                                 <li>
                                                     <span>Total Supply:</span>
-                                                    12,500,000,000 RETH
+                                                    {Math.floor(Math.random() * 1000000000)} RETH
                                                 </li>
                                                 <li>
                                                     <span>Initial Market Capitalization:</span>
-                                                    USD$ 1,949,625
+                                                    USD$ {Math.floor(Math.random() * 10000000)}
                                                 </li>
                                                 <li>
                                                     <span>Total Raise (All Rounds):</span>
-                                                    USD$ 12,700,000
+                                                    USD$ {Math.floor(Math.random() * 1000000)}
                                                 </li>
                                                 <li>
                                                     <span>Platform Allocation:</span>
-                                                    BUSD 200,000
+                                                    SSDC {Math.floor(Math.random() * 1000000)}
                                                 </li>
                                                 <li>
                                                     <span>Vesting Details:</span>

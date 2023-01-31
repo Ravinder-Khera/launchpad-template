@@ -7,9 +7,9 @@ const ProjectDetails = () => {
         <>
             <LayoutFront
                 pageClass={"front"}
-                headTitle={"Explore Details"}
-                pageTitle={"Explore Details"}
-                pageTitleSub={"Welcome Explore Details Page"}
+                headTitle={"CODYFIGHT"}
+                pageTitle={"CODYFIGHT"}
+                pageTitleSub={"Welcome to CODYFIGHT Page"}
                 parent={"Home"}
                 child={"Explore Details"}
             >
@@ -19,8 +19,8 @@ const ProjectDetails = () => {
 
                             <div className="col-xl-4">
                                 <div className="explore-details-head">
-                                    <h2>Realms of Ethernity</h2>
-                                    <h6>RETH / BUSD</h6>
+                                    <h2>CODYFIGHT</h2>
+                                    <h6>RETH / BUDC</h6>
 
                                     <div className="badge-group">
                                         <span className="mb-3 badge"> Registered</span>
@@ -35,8 +35,8 @@ const ProjectDetails = () => {
                                             {/* <Link href="/">
                                                 <a className="btn btn-primary">Connect</a>
                                             </Link> */}
-                                            <h5>1 BUSD = 33.2999 RETH</h5>
-                                            <h6>1 RETH = 0.03 BUSD</h6>
+                                            <h5>1 BUDC = 35.4991 RETH</h5>
+                                            <h6>1 RETH = 0.23 BUDC</h6>
 
                                             <div className="complete-progress">
                                                 <div className="d-flex justify-content-between">
@@ -54,8 +54,8 @@ const ProjectDetails = () => {
                                                     />
                                                 </div>
                                                 <div className="d-flex justify-content-between">
-                                                    <span>0 BUSD</span>
-                                                    <span>0 / 568742648.35 RETH</span>
+                                                    <span>0 BUDC</span>
+                                                    <span>0 / {Math.random()} RETH</span>
                                                 </div>
                                             </div>
 
@@ -83,7 +83,8 @@ const ProjectDetails = () => {
                                     </div>
                                     <div className="card-body">
                                         <div className="explore-details-about">
-                                            <p>Realms of Ethernity, the WOW of WEB 3.0 gaming which provides AAA gameplay experience. RoE is an MMORPG that takes some of the best lessons learned from games like WoW, Ultima Online, Runescape and Dota, and spins them up with a reimagined meta and new game modes to create a unique and compelling gameplay experience. Built for first-release on desktop, you play a customisable NFT avatar, each with their own appearance, play-style and identity. Unlike other play-to-earn games, Realms of Ethernity gives you complete ownership over your in-game progress. Within Realms of Ethernity, developers and players can build, own, and monetize their gaming experiences.</p>
+                                            <p>CODYFIGHT is a game series written and illustrated by Tite Kubo. It follows the adventures of a teenager Ichigo Kurosaki, who inherits his parents' destiny after he obtains the powers of a Soul Reaper—a death personification similar to the Grim Reaper—from another Soul Reaper, Rukia Kuchiki. His new-found powers allow him to take on the duties of defending humans from evil spirits and guiding departed souls to the afterlife, and set him on journeys to various ghostly realms of existence.
+                                            CODYFIGHT was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from August 2001 to August 2016, with its chapters collected in 74 tankōbon volumes. The series has spawned a media franchise that includes an anime television series adaptation that was produced by Tokyo-based studio Pierrot from 2004 to 2012, two original video animation (OVA) episodes, four animated feature films, ten stage musicals, and numerous video games, as well as many types of CODYFIGHT-related merchandise. A Japanese live-action film adaptation produced by Warner Bros. premiered in 2022.evelopers and players can build, own, and monetize their gaming experiences.</p>
                                             <div className="social-link">
                                                 <Link href="#">
                                                     <a><i className="bi bi-facebook"></i></a>
@@ -109,12 +110,12 @@ const ProjectDetails = () => {
                                         <div className="pool-details">
                                             <ul>
                                                 <li><span>Access Type : </span> 	Levels</li>
-                                                <li><span>Hard Cap : </span> 	$161 661</li>
-                                                <li><span>Swap Rate : </span> 	1 RETH = $0.03 | 33.2999 RETH per 1 BUSD</li>
+                                                <li><span>Hard Cap : </span> 	${Math.floor(Math.random() * 10000)}</li>
+                                                <li><span>Swap Rate : </span> 	1 RETH = $0.03 | {Math.random()} RETH per 1 BUDC</li>
                                                 <li><span>Start/end : </span> 	13 Apr, 11:00 am –16:00 pm UTC</li>
                                                 <li><span>Registration : </span> 	Apr 11, 11:00 UTC –Apr 13, 08:00 UTC</li>
                                                 <li><span>FCFS Opens : </span> 	Apr 13, 15:40 UTC UTC (20m before the end)</li>
-                                                <li><span>Base Allocation : </span> 	1x = $31.02 (approx)</li>
+                                                <li><span>Base Allocation : </span> 	1x = ${Math.random()} (approx)</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -142,23 +143,23 @@ const ProjectDetails = () => {
                                                 </li>
                                                 <li>
                                                     <span>Initial Supply:</span>
-                                                    433,250,000 RETH
+                                                    {Math.floor(Math.random() * 100000000)} RETH
                                                 </li>
                                                 <li>
                                                     <span>Total Supply:</span>
-                                                    12,500,000,000 RETH
+                                                    {Math.floor(Math.random() * 1000000000)} RETH
                                                 </li>
                                                 <li>
                                                     <span>Initial Market Capitalization:</span>
-                                                    USD$ 1,949,625
+                                                    USD$ {Math.floor(Math.random() * 10000000)}
                                                 </li>
                                                 <li>
                                                     <span>Total Raise (All Rounds):</span>
-                                                    USD$ 12,700,000
+                                                    USD$ {Math.floor(Math.random() * 1000000)}
                                                 </li>
                                                 <li>
                                                     <span>Platform Allocation:</span>
-                                                    BUSD 200,000
+                                                    BUDC {Math.floor(Math.random() * 1000000)}
                                                 </li>
                                                 <li>
                                                     <span>Vesting Details:</span>

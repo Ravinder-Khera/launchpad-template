@@ -9,7 +9,10 @@ const ExploreList = () => {
             img: "card1.png",
             avatar: "a1.png",
             description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
-            link: "/explore-details1"
+            link: "/explore-details1",
+            price: "1 RETH = 0.01 BUSD",
+            date: "April 7, 11:00 UTC",
+            raise: "25,000"
         },
         {
             id: 2,
@@ -17,23 +20,32 @@ const ExploreList = () => {
             img: "card2.png",
             avatar: "a2.png",
             description: "Every 1000 years, the Gods' Council assemble to decide the fate of humanity. After 7 million years of human history, the gods come to the decision that humans are irredeemable and must be extinct.",
-            link: "/explore-details2"
+            link: "/explore-details2",
+            price: "1 BNB = 0.2 SSDC",
+            date: "Feb 21, 07:00 UTC",
+            raise: "49,000"
         },
         {
             id: 2,
-            title: "Mark",
-            img: "3.jpg",
-            avatar: "3.jpg",
-            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
-            link: "/explore-details3"
+            title: "CODYFIGHT",
+            img: "c3.png",
+            avatar: "a3.png",
+            description: "CODYFIGHT is a series written and illustrated by Tite Kubo. It follows the adventures of a teenager Ichigo Kurosaki, who inherits his parents' destiny after he obtains the powers of a Soul Reaper—a death personification similar to the Grim Reaper—from another Soul Reaper, Rukia Kuchiki. His new-found powers allow him to take on the duties of defending humans from evil spirits and guiding departed souls to the afterlife, and set him on journeys to various ghostly realms of existence.",
+            link: "/explore-details3",
+            price: "1 RETH = 0.03 BUDC",
+            date: "June 8, 09:00 UTC",
+            raise: "36,000"
         },
         {
             id: 2,
-            title: "Mark",
-            img: "3.jpg",
-            avatar: "3.jpg",
-            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
-            link: "/explore-details4"
+            title: "MoBox",
+            img: "c4.png",
+            avatar: "a4.webp",
+            description: "The story follows Asta and Yuno as they crawl their way up the ladder of the Clover Kingdom's Order of the Magic Knights, in the midst of scrutiny by the nobles, to become the Wizard King. However, the title is only preserved for a single mage.",
+            link: "/explore-details4",
+            price: "1 USTD = 0.01 BUSD",
+            date: "May 10, 10:00 UTC",
+            raise: "52,000"
         },
     ];
 
@@ -82,15 +94,15 @@ const ExploreList = () => {
                             <div className="d-flex justify-content-between align-items-center">
 
                                 <span>Total raise</span>
-                                <h5> 300,000 </h5>
+                                <h5> {item.raise} </h5>
                             </div>
                             <div className="d-flex justify-content-between align-items-center">
                                 <span>Starts</span>
-                                <h5> April 7, 11:00 UTC</h5>
+                                <h5>{item.date}</h5>
                             </div>
                             <div className="d-flex justify-content-between align-items-center">
                                 <span>Price</span>
-                                <h5> 1 RETH = 0.01 BUSD</h5>
+                                <h5> {item.price}</h5>
                             </div>
 
                             <div className="complete-progress">
