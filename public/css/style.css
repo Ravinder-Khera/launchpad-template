@@ -9792,6 +9792,8 @@ button,
   text-align: center; }
   .explore-list .explore-list-banner {
     border-bottom: 1px solid #D01F36; }
+    .explore-list .explore-list-banner img {
+      height: 200px; }
   .explore-list .explore-list-profile {
     text-align: center;
     margin-top: -75px; }

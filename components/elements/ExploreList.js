@@ -8,28 +8,32 @@ const ExploreList = () => {
             title: "War Of Fury",
             img: "card1.png",
             avatar: "a1.png",
-            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand."
+            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
+            link: "/explore-details1"
         },
         {
             id: 2,
             title: "Mark",
             img: "2.jpg",
             avatar: "2.jpg",
-            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand."
+            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
+            link: "/explore-details2"
         },
         {
             id: 2,
             title: "Mark",
             img: "3.jpg",
             avatar: "3.jpg",
-            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand."
+            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
+            link: "/explore-details3"
         },
         {
             id: 2,
             title: "Mark",
             img: "3.jpg",
             avatar: "3.jpg",
-            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand."
+            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
+            link: "/explore-details4"
         },
     ];
 
@@ -73,7 +77,7 @@ const ExploreList = () => {
 
 
                             <p>
-                                {item.description.substring(0,75)}
+                                {item.description.substring(0,75)} ...
                             </p>
                             <div className="d-flex justify-content-between align-items-center">
 
@@ -121,7 +125,7 @@ const ExploreList = () => {
                                 </div>
                             </div>
                             <hr />
-                            <Link href="/explore-details">
+                            <Link href={item.link}>
                                 <a className="btn btn-primary w-100">
                                     Learn More
                                 </a>
