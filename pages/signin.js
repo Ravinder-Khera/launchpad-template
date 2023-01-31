@@ -24,7 +24,7 @@ function Signin() {
                                     <div className="text-center">
                                         <p className="mt-3 mb-0">
                                             <Link href="/signin">
-                                                <a className="text-primary">
+                                                <a className="text-white fw-bold me-1">
                                                     Sign in 
                                                 </a>
                                             </Link>

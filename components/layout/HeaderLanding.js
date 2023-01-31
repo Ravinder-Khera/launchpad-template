@@ -76,7 +76,12 @@ function HeaderLanding() {
                                                         <Link href="/index2"><a className="dropdown-item">Home 2</a></Link>
                                                     </div> */}
                                             </li>
+
                                             <li className="nav-item dropdown" onClick={() => handleToggle(2)}>
+                                                <Link href="/explore-grid"><a className="nav-link">Explore</a></Link>
+                                            </li>
+                                            
+                                            {/* <li className="nav-item dropdown" onClick={() => handleToggle(2)}>
                                                 <a className="nav-link">Explore
                                                 </a>
                                                 <div class={
@@ -87,9 +92,8 @@ function HeaderLanding() {
                                                     <Link href="/explore-grid"><a className="dropdown-item">Explore Grid</a></Link>
                                                     <Link href="/explore-list"><a className="dropdown-item">Explore List</a></Link>
                                                     <Link href="/explore-details"><a className="dropdown-item">Explore Details</a></Link>
-                                                    {/* <Link href="/explore-calendar"><a className="dropdown-item">Explore Calendar</a></Link> */}
                                                 </div>
-                                            </li>
+                                            </li> */}
                                             <li className="nav-item dropdown" onClick={() => handleToggle(3)}>
                                                 <Link href="/staking-one"><a className="nav-link">Staking</a></Link>
                                                 {/* <div class={

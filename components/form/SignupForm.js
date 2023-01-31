@@ -38,7 +38,7 @@ function SignupForm() {
                                     name="fullName"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.fullName && touched.fullName
                                             ? " is-invalid"
                                             : "")
@@ -56,7 +56,7 @@ function SignupForm() {
                                     name="email"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.email && touched.email
                                             ? " is-invalid"
                                             : "")
@@ -75,7 +75,7 @@ function SignupForm() {
                                     name="password"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.password && touched.password
                                             ? " is-invalid"
                                             : "")
@@ -101,7 +101,7 @@ function SignupForm() {
                                         }
                                     />
                                     <label className="form-check-label">
-                                    I certify that I am 18 years of age or older, and agree to the <a href="#" className="text-primary">User Agreement</a> and <a href="#" className="text-primary">Privacy Policy</a>.
+                                    I certify that I am 18 years of age or older, and agree to the <a href="#" className="text-white fw-bold">User Agreement</a> and <a href="#" className="text-white fw-bold">Privacy Policy</a>.
                                     </label>
                                     <ErrorMessage
                                         name="acceptTerms"

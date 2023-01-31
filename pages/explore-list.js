@@ -15,7 +15,7 @@ const Project = () => {
 					<div className="container">
 						<div className="row">
 							<div className="col-xl-6">
-								<div className="section-title">
+								<div className="section-title text-start">
 									<h2>Upcoming Projects</h2>
 								</div>
 							</div>

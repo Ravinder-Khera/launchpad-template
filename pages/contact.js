@@ -41,7 +41,7 @@ const Contact = () => {
                                                 <label for="contactName">
                                                     Full name
                                                 </label>
-                                                <input type="text" class="form-control" id="contactName" placeholder="Full name"
+                                                <input type="text" class="form-control border-white" id="contactName" placeholder="Full name"
                                                     name="firstname" />
                                             </div>
                                         </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                                                 <label for="contactEmail">
                                                     Email
                                                 </label>
-                                                <input type="email" class="form-control" name="email"
+                                                <input type="email" class="form-control border-white" name="email"
                                                     placeholder="hello@domain.com" />
 
                                             </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="mb-3">
-                                                <textarea class="form-control p-3" name="message" rows="5" style={{ "height": "200px" }}
+                                                <textarea class="form-control p-3 border-white" name="message" rows="5" style={{ "height": "200px" }}
                                                     placeholder="Tell us what we can help you with!"></textarea>
                                             </div>
                                         </div>

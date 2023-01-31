@@ -17,8 +17,8 @@ const Explore = () => {
             <div className="explore section-padding">
                     <div className="container">
                         <div className="row">
-                            <div className="col-xl-6 text-start">
-                                <div className="section-title">
+                            <div className="col-xl-6">
+                                <div className="section-title text-start">
                                     <h2>Upcoming Projects</h2>
                                 </div>
                             </div>

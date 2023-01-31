@@ -34,7 +34,7 @@ function SigninForm() {
                                     name="email"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.email && touched.email
                                             ? " is-invalid"
                                             : "")
@@ -53,7 +53,7 @@ function SigninForm() {
                                     name="password"
                                     type="text"
                                     className={
-                                        "form-control" +
+                                        "form-control border-white" +
                                         (errors.password && touched.password
                                             ? " is-invalid"
                                             : "")

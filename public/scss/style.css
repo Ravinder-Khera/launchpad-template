@@ -12608,7 +12608,7 @@ button:hover, button:focus, button:active,
   display: inline-block;
   font-size: 14px;
   line-height: 28px;
-  color: #0E0B2B;
+  color: #fff;
 }
 
 .identity-content {
@@ -13600,7 +13600,7 @@ button:hover, button:focus, button:active,
   font-size: 18px;
 }
 .stacking-content .stacking-desc a {
-  color: #D01F36;
+  color: #fff;
   font-weight: 700;
 }
 .stacking-content hr {
