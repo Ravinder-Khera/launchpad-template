@@ -11,7 +11,7 @@ const ProjectDetails = () => {
                 pageTitle={"MoBox"}
                 pageTitleSub={"Welcome to MoBox Page"}
                 parent={"Home"}
-                child={"Explore Details"}
+                child={"MoBox"}
             >
                 <div className="explore-details section-padding">
                     <div className="container">

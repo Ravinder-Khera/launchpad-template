@@ -12,7 +12,7 @@ const ProjectDetails = () => {
                 pageTitle={"Record of Ragnarok"}
                 pageTitleSub={"Welcome toRecord of Ragnarok Page"}
                 parent={"Home"}
-                child={"Explore Details"}
+                child={"Record of Ragnarok"}
             >
                 <div className="explore-details section-padding">
                     <div className="container">
