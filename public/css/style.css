@@ -10170,7 +10170,7 @@ button,
   .team-content img {
     margin-bottom: 10px;
     margin-top: -80px;
-    border: 1px solid #D01F36;
+    border: 1px solid #fff;
     display: inline-block;
     background: #373737;
     border-radius: 100px; }
@@ -10181,7 +10181,7 @@ button,
   .team-content .team-social {
     margin-top: 20px; }
     .team-content .team-social a {
-      color: #fff;
+      color: #D01F36;
       margin: 0px 7px; }
 
 #cd-timeline {

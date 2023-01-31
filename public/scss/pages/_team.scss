@@ -8,7 +8,7 @@
 	img {
 		margin-bottom: 10px;
 		margin-top: -80px;
-		border: 1px solid $border-color;
+		border: 1px solid $white;
 		display: inline-block;
 		// padding: 10px;
 		background: $light;
@@ -24,7 +24,7 @@
 	.team-social {
 		margin-top: 20px;
 		a {
-			color: $white;
+			color: $primary;
 			margin: 0px 7px;
 		}
 	}
