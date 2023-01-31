@@ -33,6 +33,10 @@
 				font-size: 18px;
 			}
 		}
+		a{
+			color: $primary;
+			font-weight: 700	;
+		}
 	}
 
 	hr {
@@ -43,8 +47,12 @@
 		margin-top: 13px;
 	}
 	.btn {
-		background: #2c2f4c;
+		background: $primary;
+		color: $white;
 		padding: 10px;
+		&:hover{
+			background: #b11a2e;
+		}
 		@include respond("md") {
 			margin-bottom: 50px;
 		}

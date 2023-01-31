@@ -43,13 +43,13 @@ const ExploreGrid = () => {
                                 <div className="game-social">
 
                                     <Link href="#">
-                                        <a><i className="bi bi-tiktok"></i></a>
+                                        <a><i className="bi bi-facebook"></i></a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a><i className="bi bi-twitter"></i></a>
                                     </Link>
                                     <Link href="#">
                                         <a><i className="bi bi-telegram"></i></a>
-                                    </Link>
-                                    <Link href="#">
-                                        <a><i className="bi bi-discord"></i></a>
                                     </Link>
                                 </div>
                             </div>

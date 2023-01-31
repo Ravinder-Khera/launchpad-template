@@ -11319,6 +11319,7 @@ strong {
 
 .section-title {
   margin-bottom: 75px;
+  text-align: center;
 }
 .section-title h2, .section-title .h2 {
   font-weight: 700;
@@ -13598,6 +13599,10 @@ button:hover, button:focus, button:active,
 .stacking-content .stacking-desc .stack-info h5, .stacking-content .stacking-desc .stack-info .h5 {
   font-size: 18px;
 }
+.stacking-content .stacking-desc a {
+  color: #D01F36;
+  font-weight: 700;
+}
 .stacking-content hr {
   margin: 30px 0px;
 }
@@ -13605,8 +13610,12 @@ button:hover, button:focus, button:active,
   margin-top: 13px;
 }
 .stacking-content .btn {
-  background: #2c2f4c;
+  background: #D01F36;
+  color: #fff;
   padding: 10px;
+}
+.stacking-content .btn:hover {
+  background: #b11a2e;
 }
 @media only screen and (max-width: 991px) {
   .stacking-content .btn {

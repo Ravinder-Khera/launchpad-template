@@ -86,13 +86,13 @@ const ProjectDetails = () => {
                                             <p>Realms of Ethernity, the WOW of WEB 3.0 gaming which provides AAA gameplay experience. RoE is an MMORPG that takes some of the best lessons learned from games like WoW, Ultima Online, Runescape and Dota, and spins them up with a reimagined meta and new game modes to create a unique and compelling gameplay experience. Built for first-release on desktop, you play a customisable NFT avatar, each with their own appearance, play-style and identity. Unlike other play-to-earn games, Realms of Ethernity gives you complete ownership over your in-game progress. Within Realms of Ethernity, developers and players can build, own, and monetize their gaming experiences.</p>
                                             <div className="social-link">
                                                 <Link href="#">
-                                                    <a><i className="bi bi-tiktok"></i></a>
+                                                    <a><i className="bi bi-facebook"></i></a>
+                                                </Link>
+                                                <Link href="#">
+                                                    <a><i className="bi bi-twitter"></i></a>
                                                 </Link>
                                                 <Link href="#">
                                                     <a><i className="bi bi-telegram"></i></a>
-                                                </Link>
-                                                <Link href="#">
-                                                    <a><i className="bi bi-discord"></i></a>
                                                 </Link>
                                             </div>
                                         </div>

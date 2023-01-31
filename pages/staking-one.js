@@ -42,7 +42,7 @@ const Staking2 = () => {
                 <div className="stacking section-padding">
                     <div className="container">
                         <div className="row">
-                            <div className="col-xl-6">
+                            <div className="col-xl-6 text-start">
                                 <div className="section-title">
                                     <h2>Stacking</h2>
                                 </div>
@@ -108,7 +108,7 @@ const Staking2 = () => {
                                                             <label className="form-label">
                                                                 Deposit
                                                             </label>
-                                                            <input type="text" className="form-control mb-4" />
+                                                            <input type="text" className="form-control mb-4 border-white" />
                                                             <button className="btn w-100">Approve</button>
                                                         </form>
                                                     </div>
@@ -117,7 +117,7 @@ const Staking2 = () => {
                                                             <label className="form-label">
                                                                 Withdraw
                                                             </label>
-                                                            <input type="text" className="form-control mb-4" />
+                                                            <input type="text" className="form-control mb-4 border-white" />
                                                             <button className="btn w-100">Withdraw</button>
                                                         </form>
                                                     </div>

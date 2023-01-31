@@ -81,7 +81,7 @@ const Index = () => {
 				<div className="upcoming-project section-padding">
 					<div className="container">
 						<div className="row">
-							<div className="col-xl-6">
+							<div className="col-xl-12">
 								<div className="section-title">
 									<h2>Upcoming Projects</h2>
 								</div>
@@ -95,7 +95,7 @@ const Index = () => {
 				<div className="completed-project section-padding">
 					<div className="container">
 						<div className="row">
-							<div className="col-xl-6">
+							<div className="col-xl-12">
 								<div className="section-title">
 									<h2>Completed Projects</h2>
 								</div>
@@ -250,7 +250,7 @@ const Index = () => {
 				<div className="built-in section-padding">
 					<div className="container">
 						<div className="row">
-							<div className="col-xl-6">
+							<div className="col-xl-12">
 								<div className="section-title">
 									<h2>Built On Gigo's Jumpnet Blockchain</h2>
 								</div>
@@ -307,7 +307,7 @@ const Index = () => {
 				<div className="team section-padding">
 					<div className="container">
 						<div className="row">
-							<div className="col-xl-6">
+							<div className="col-xl-12">
 								<div className="section-title">
 									<h2>Meet Our Team</h2>
 								</div>
@@ -322,7 +322,7 @@ const Index = () => {
 				<div className="investor section-padding">
 					<div className="container">
 						<div className="row justify-content-center">
-							<div className="col-xl-6">
+							<div className="col-xl-12">
 								<div className="section-title text-center">
 									<h2>Institutional Investors</h2>
 								</div>
