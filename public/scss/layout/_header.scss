@@ -46,6 +46,9 @@
     &.landing {
         padding: 20px 0px;
         left: 0px;
+        @include respond("xs") {
+            min-height: 85px;
+        }
         // border-bottom: 1px solid $border-color;
         // position: relative;
         a {

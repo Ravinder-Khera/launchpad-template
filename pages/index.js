@@ -157,7 +157,7 @@ const Index = () => {
 					</div>
 				</div>
 
-				<div className="mission-vission section-padding bg-light">
+				<div className="mission-vission section-padding">
 					<div className="container">
 						<div className="row">
 							<div className="col-md-6">
@@ -290,7 +290,7 @@ const Index = () => {
 									</div>
 									<div className="col-md-4">
 										<div className="built-in-content">
-											<span><i class="ri-award-fill"></i></span>
+											<span><i class="bi bi-trophy-fill"></i></span>
 											<h4>Reward</h4>
 											<p>
 												Buying and Selling of NFTs,
