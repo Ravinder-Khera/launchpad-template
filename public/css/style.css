@@ -9920,6 +9920,11 @@ button,
   .token-metrics ul li:last-child,
   .distribution ul li:last-child {
     border: 0px; }
+  @media only screen and (max-width: 575px) {
+    .pool-details ul li,
+    .token-metrics ul li,
+    .distribution ul li {
+      flex-wrap: wrap; } }
   .pool-details ul li span,
   .token-metrics ul li span,
   .distribution ul li span {

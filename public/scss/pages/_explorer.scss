@@ -177,6 +177,9 @@
 				border: 0px;
 			}
 			display: flex;
+			@include respond("xs") {
+				flex-wrap: wrap;
+			}
 			span {
 				min-width: 250px;
 				display: inline-block;
