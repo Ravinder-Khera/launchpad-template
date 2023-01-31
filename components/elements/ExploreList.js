@@ -5,27 +5,31 @@ const ExploreList = () => {
     const data = [
         {
             id: 1,
-            title: "Avy",
-            img: "1.jpg",
-            avatar: "1.jpg",
+            title: "War Of Fury",
+            img: "card1.png",
+            avatar: "a1.png",
+            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand."
         },
         {
             id: 2,
             title: "Mark",
             img: "2.jpg",
             avatar: "2.jpg",
+            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand."
         },
         {
             id: 2,
             title: "Mark",
             img: "3.jpg",
             avatar: "3.jpg",
+            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand."
         },
         {
             id: 2,
             title: "Mark",
             img: "3.jpg",
             avatar: "3.jpg",
+            description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand."
         },
     ];
 
@@ -50,7 +54,7 @@ const ExploreList = () => {
                             <div className="explore-list-profile">
                                 <img src={`/launchpad-template/images/avatar/${item.avatar}`} alt="" />
                                 <h4 className="card-title">
-                                    Hydraverse
+                                    {item.title}
                                 </h4>
                                 <span>$RETH</span>
                                 <div className="game-social">
@@ -69,9 +73,7 @@ const ExploreList = () => {
 
 
                             <p>
-                                The revolutionary crowd sourced
-                                funding platform. Own the show and
-                                get your cut too!
+                                {item.description.substring(0,75)}
                             </p>
                             <div className="d-flex justify-content-between align-items-center">
 
