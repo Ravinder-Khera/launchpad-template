@@ -12941,7 +12941,7 @@ button:hover, button:focus, button:active,
   transform: rotate3d(3, 2, 3, 45deg);
 }
 .intro-slider .swiper-slide.swiper-slide-duplicate-active {
-  transform: none;
+  transform: rotate3d(1, 1, 1, 0deg);
 }
 .intro-slider .swiper-slide.swiper-slide-prev {
   transform: rotate3d(1, 1, 3, 320deg);
