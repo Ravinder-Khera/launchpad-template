@@ -13,7 +13,13 @@ const IntroSlider = () => {
             author: "Sound Box"
         },
         {
-            img: "wedo.png",
+            img: "imageban1.png",
+            avatar: "2.png",
+            title: "The Sandbox",
+            author: "Sound Box"
+        },
+        {
+            img: "imageban2.png",
             avatar: "3.png",
             title: "The Sandbox",
             author: "Sound Box"

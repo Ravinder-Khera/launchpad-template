@@ -113,7 +113,7 @@ const Index = () => {
 							<div className="col-lg-5">
 								<div className="what-we-do-img">
 									<img
-										src="/launchpad-template/images/items/hb.png"
+										src="/launchpad-template/images/items/wedo.png"
 										alt=""
 										className="img-fluid rounded"
 									/>

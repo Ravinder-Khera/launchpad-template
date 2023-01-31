@@ -9980,11 +9980,11 @@ button,
       margin-top: 50px; } }
   .intro-slider .swiper-slide {
     transition: transform 1s;
-    transform: rotate3d(1, 1, 3, 320deg); }
-    .intro-slider .swiper-slide.swiper-slide-duplicate-active {
-      transform: rotate3d(1, 1, 1, 0deg); }
-    .intro-slider .swiper-slide.swiper-slide-duplicate-next {
+    transform: rotate3d(1, 1, 1, 0deg); }
+    .intro-slider .swiper-slide.swiper-slide-duplicate-prev {
       transform: rotate3d(3, 2, 3, 45deg); }
+    .intro-slider .swiper-slide.swiper-slide-duplicate-next {
+      transform: rotate3d(1, 1, 3, 320deg); }
   .intro-slider .slider-item {
     position: relative;
     display: flex;
