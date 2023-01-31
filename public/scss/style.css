@@ -12363,7 +12363,7 @@ strong {
 }
 
 .card {
-  border: 1px solid #D01F36;
+  border: 1px solid #373737;
   margin-bottom: 30px;
   border-radius: 8px;
   box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.05);
@@ -13045,7 +13045,7 @@ button:hover, button:focus, button:active,
 }
 
 .built-in-content {
-  border: 1px solid #D01F36;
+  border: 1px solid #fff;
   border-radius: 8px;
   padding: 30px;
   background: #373737;
@@ -13152,7 +13152,7 @@ button:hover, button:focus, button:active,
   text-align: center;
   padding: 30px 20px;
   border-radius: 8px;
-  border: 1px solid #D01F36;
+  border: 1px solid #fff;
   margin-top: 80px;
 }
 .team-content img {
