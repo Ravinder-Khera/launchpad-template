@@ -19,7 +19,7 @@ const ProjectDetails = () => {
 
                             <div className="col-xl-4">
                                 <div className="explore-details-head">
-                                    <h2>Realms of Ethernity</h2>
+                                    <h2>War of Fury</h2>
                                     <h6>RETH / BUSD</h6>
 
                                     <div className="badge-group">
@@ -79,11 +79,11 @@ const ProjectDetails = () => {
                             <div className="col-xl-8">
                                 <div className="card">
                                     <div className="explorer-details-slider">
-                                        <img src="/launchpad-template/images/items/3.jpg" className="img-fluid w-100 card-img-top" alt="" />
+                                        <img src="/launchpad-template/images/items/card1.png" className="img-fluid w-100 card-img-top" alt="" />
                                     </div>
                                     <div className="card-body">
                                         <div className="explore-details-about">
-                                            <p>Realms of Ethernity, the WOW of WEB 3.0 gaming which provides AAA gameplay experience. RoE is an MMORPG that takes some of the best lessons learned from games like WoW, Ultima Online, Runescape and Dota, and spins them up with a reimagined meta and new game modes to create a unique and compelling gameplay experience. Built for first-release on desktop, you play a customisable NFT avatar, each with their own appearance, play-style and identity. Unlike other play-to-earn games, Realms of Ethernity gives you complete ownership over your in-game progress. Within Realms of Ethernity, developers and players can build, own, and monetize their gaming experiences.</p>
+                                            <p>War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. War of Fury, the WOW of WEB 3.0 gaming which provides AAA gameplay experience. RoE is an MMORPG that takes some of the best lessons learned from games like WoW, Ultima Online, Runescape and Dota, and spins them up with a reimagined meta and new game modes to create a unique and compelling gameplay experience. Built for first-release on desktop, you play a customisable NFT avatar, each with their own appearance, play-style and identity.</p>
                                             <div className="social-link">
                                                 <Link href="#">
                                                     <a><i className="bi bi-facebook"></i></a>
