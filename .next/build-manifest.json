@@ -25,20 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/explore-grid": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/explore-grid.js"
-    ],
     "/farming": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/farming.js"
-    ],
-    "/signin": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/signin.js"
     ],
     "/staking-one": [
       "static/chunks/webpack.js",

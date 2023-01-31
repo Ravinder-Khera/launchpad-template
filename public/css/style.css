@@ -8895,10 +8895,8 @@ strong {
         max-width: 120px !important; } }
   .header.landing {
     padding: 20px 0px;
-    left: 0px; }
-    @media only screen and (max-width: 575px) {
-      .header.landing {
-        min-height: 85px; } }
+    left: 0px;
+    min-height: 85px; }
     .header.landing a {
       display: flex;
       align-items: center;
