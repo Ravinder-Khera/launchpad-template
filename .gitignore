@@ -5,12 +5,12 @@
 /.pnp
 .pnp.js
 
-/build
-
 # testing
 /coverage
 
 # production
+/.next
+.next
 /build
 
 # misc
