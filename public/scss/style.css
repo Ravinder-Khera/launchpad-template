@@ -12928,20 +12928,20 @@ button:hover, button:focus, button:active,
 
 .intro-slider {
   position: relative;
+  transition: transform 1s;
 }
 @media only screen and (max-width: 1199px) {
   .intro-slider {
     margin-top: 50px;
   }
 }
-.intro-slider .swiper-slide {
-  transition: transform 1s;
+.intro-slider .swiper-slide-duplicate-active {
   transform: rotate3d(1, 1, 1, 0deg);
 }
-.intro-slider .swiper-slide.swiper-slide-duplicate-prev {
+.intro-slider .swiper-slide-duplicate-prev {
   transform: rotate3d(3, 2, 3, 45deg);
 }
-.intro-slider .swiper-slide.swiper-slide-duplicate-next {
+.intro-slider .swiper-slide-duplicate-next {
   transform: rotate3d(1, 1, 3, 320deg);
 }
 .intro-slider .slider-item {
