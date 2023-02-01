@@ -7,22 +7,22 @@ const TeamMember = () => {
         {
             id: 1,
             title: "Avy",
-            img: "1.png",
+            img: "person.png",
         },
         {
             id: 2,
             title: "Mark",
-            img: "2.png",
+            img: "person.png",
         },
         {
             id: 2,
             title: "Mark",
-            img: "3.png",
+            img: "person.png",
         },
         {
             id: 2,
             title: "Mark",
-            img: "4.png",
+            img: "person.png",
         },
     ];
 
