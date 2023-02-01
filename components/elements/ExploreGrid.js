@@ -79,14 +79,17 @@ const ExploreGrid = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-4">
+                            <div className="col-md-6">
                                 <div className='game-info'>Total raise:<span>{Math.floor(Math.random() * 100)}k</span></div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-6">
                                 <div className='game-info'>Market Cap:<span>{Math.floor(Math.random() * 100)}k</span></div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-6">
                                 <div className='game-info'>Token Supply:<span>{Math.floor(Math.random() * 1000)}M</span></div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className='game-info'><Link to={item.link}>Full Research </Link></div>
                             </div>
                         </div>
                     </div>
