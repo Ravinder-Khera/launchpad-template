@@ -109,7 +109,7 @@ const ProjectDetails = () => {
                                         <div className="pool-details">
                                             <ul>
                                                 <li><span>Access Type : </span> 	Levels</li>
-                                                <li><span>Hard Cap : </span> 	${Math.floor(Math.random() * 10000)}</li>
+                                                <li><span>Hard Cap : </span> 	${Math.floor(Math.random()*10000)}</li>
                                                 <li><span>Swap Rate : </span> 	1 RETH = $0.03 | {Math.random()} RETH per 1 BUSD</li>
                                                 <li><span>Start/end : </span> 	13 Apr, 11:00 am –16:00 pm UTC</li>
                                                 <li><span>Registration : </span> 	Apr 11, 11:00 UTC –Apr 13, 08:00 UTC</li>
