@@ -91,7 +91,7 @@ const ExploreGrid = () => {
                             <div className="col-md-6">
                                 <div className='game-info'>
                                     <Link href={item.link}>
-                                        <a className="btn btn-primary w-100">
+                                        <a className="text-white">
                                             Full Research {">>"}
                                         </a>
                                     </Link>
