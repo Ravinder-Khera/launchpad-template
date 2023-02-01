@@ -6,23 +6,43 @@ const CompleteList = () => {
     const data = [
         {
             id: 1,
-            title: "Avy",
-            img: "3.jpg",
+            title: "Jungle Road",
+            img: "cc1.jpg",
+            description: "Here at Jungle Road, players can explore wild landscapes with their very own unique, strong, and diverse animal gods. Each character comes from a different origin and is on a quest to reach Nirvana. In these maps, you will come across rivers and lands of all sorts, filled with wild animal attacks and many obstacles to overcome. This journey will not be easy nor safe. This blockchain game will take you back to the good old days of when you were a kid and would escape your daily life chores and just have fun. But now with NFTs, we are able to do this and also earn as we play.",
+            currency: "BUSD/JGRD",
+            tokenPrice: "0.046",
+            raise: "47,500",
+            link: "/explore-details1-comp"
         },
         {
             id: 2,
-            title: "Mark",
-            img: "4.jpg",
+            title: "Jungle Road",
+            img: "cc1.jpg",
+            description: "Here at Jungle Road, players can explore wild landscapes with their very own unique, strong, and diverse animal gods. Each character comes from a different origin and is on a quest to reach Nirvana. In these maps, you will come across rivers and lands of all sorts, filled with wild animal attacks and many obstacles to overcome. This journey will not be easy nor safe. This blockchain game will take you back to the good old days of when you were a kid and would escape your daily life chores and just have fun. But now with NFTs, we are able to do this and also earn as we play.",
+            currency: "BUSD/JGRD",
+            tokenPrice: "0.046",
+            raise: "47,500",
+            link: "/explore-details1-comp"
         },
         {
             id: 2,
-            title: "Mark",
-            img: "5.jpg",
+            title: "Jungle Road",
+            img: "cc1.jpg",
+            description: "Here at Jungle Road, players can explore wild landscapes with their very own unique, strong, and diverse animal gods. Each character comes from a different origin and is on a quest to reach Nirvana. In these maps, you will come across rivers and lands of all sorts, filled with wild animal attacks and many obstacles to overcome. This journey will not be easy nor safe. This blockchain game will take you back to the good old days of when you were a kid and would escape your daily life chores and just have fun. But now with NFTs, we are able to do this and also earn as we play.",
+            currency: "BUSD/JGRD",
+            tokenPrice: "0.046",
+            raise: "47,500",
+            link: "/explore-details1-comp"
         },
         {
             id: 2,
-            title: "Mark",
-            img: "5.jpg",
+            title: "Jungle Road",
+            img: "cc1.jpg",
+            description: "Here at Jungle Road, players can explore wild landscapes with their very own unique, strong, and diverse animal gods. Each character comes from a different origin and is on a quest to reach Nirvana. In these maps, you will come across rivers and lands of all sorts, filled with wild animal attacks and many obstacles to overcome. This journey will not be easy nor safe. This blockchain game will take you back to the good old days of when you were a kid and would escape your daily life chores and just have fun. But now with NFTs, we are able to do this and also earn as we play.",
+            currency: "BUSD/JGRD",
+            tokenPrice: "0.046",
+            raise: "47,500",
+            link: "/explore-details1-comp"
         },
     ];
 
@@ -40,16 +60,14 @@ const CompleteList = () => {
                         />
                         <div className="card-body">
                             <h4 className="card-title">
-                                Hydraverse
+                                {item.title}
                             </h4>
                             <p>
-                                The revolutionary crowd sourced
-                                funding platform. Own the show and
-                                get your cut too!
+                                {item.description.substring(0,100)} ...
                             </p>
 
                             <div className="complete-progress">
-                                <h5 className='mb-2'>USDT/USDC</h5>
+                                <h5 className='mb-2'>{item.currency}</h5>
                                 <div className="progress mb-3">
                                     <div
                                         className="progress-bar"
@@ -68,7 +86,7 @@ const CompleteList = () => {
                                     <h5> BUSD</h5>
                                 </div>
                                 <div>
-                                    <h5> 300,000 </h5>
+                                    <h5> {item.raise} </h5>
                                 </div>
                             </div>
                             <div className="d-flex justify-content-between align-items-end">
@@ -77,10 +95,10 @@ const CompleteList = () => {
                                     <h5> BUSD</h5>
                                 </div>
                                 <div>
-                                    <h5> 0.04500 </h5>
+                                    <h5> {item.tokenPrice} </h5>
                                 </div>
                             </div>
-                            <Link href="#">
+                            <Link href={item.link}>
                                 <a className="btn btn-primary w-100">
                                     Learn More
                                 </a>
