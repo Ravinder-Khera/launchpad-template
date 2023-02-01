@@ -50,7 +50,7 @@ const CompleteList = () => {
         <>
             {data.map((item, i) => (
 
-                <div className="col-xl-3 col-md-6">
+                <div className="col-xl-3 col-md-6" key={i}>
                     <div className="card explore-list ">
                         <img
                             src={`/launchpad-template/images/items/${item.img}`}
@@ -81,14 +81,14 @@ const CompleteList = () => {
                             </div>
 
                             <div className="d-flex justify-content-between align-items-end">
-                                <div>
-                                    <span>Start</span>
+                                <div className='d-flex justify-content-between w-100 flex-wrap'>
+                                    <h5>Start</h5>
                                     <h5> {item.start}</h5>
                                 </div>
                             </div>
                             <div className="d-flex justify-content-between align-items-end">
-                                <div>
-                                    <span> Price</span>
+                                <div className='d-flex justify-content-between w-100 flex-wrap'>
+                                    <h5> Price</h5>
                                     <h5> {item.price}</h5>
                                 </div>
                             </div>
