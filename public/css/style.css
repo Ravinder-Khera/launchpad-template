@@ -9802,6 +9802,7 @@ button,
       margin-bottom: 15px;
       width: 100px;
       height: 100px;
+      object-fit: contain;
       border: 2px solid #D01F36; }
     .explore-list .explore-list-profile h4, .explore-list .explore-list-profile .h4 {
       font-size: 22px; }
@@ -10113,10 +10114,13 @@ button,
     margin-bottom: 20px; }
 
 .investor-brand {
-  text-align: center; }
+  text-align: center;
+  min-width: 190px; }
   .investor-brand img {
     margin: 0 auto 50px;
-    max-width: 125px; }
+    max-width: 100%;
+    object-fit: contain;
+    max-height: 100px; }
 
 .profile-page {
   margin-bottom: 150px; }

@@ -13107,10 +13107,14 @@ button:hover, button:focus, button:active,
 
 .investor-brand {
   text-align: center;
+  min-width: 190px;
 }
 .investor-brand img {
   margin: 0 auto 50px;
-  max-width: 125px;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-height: 100px;
 }
 
 .profile-page {
