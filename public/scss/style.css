@@ -13576,63 +13576,63 @@ button:hover, button:focus, button:active,
   background: transparent;
 }
 
-.stacking-content .stacking-toggle {
+.Staking-content .Staking-toggle {
   cursor: pointer;
 }
-.stacking-content .stacking-toggle i {
+.Staking-content .Staking-toggle i {
   font-size: 32px;
   position: absolute;
   right: 30px;
 }
-.stacking-content .stacking-img {
+.Staking-content .Staking-img {
   display: flex;
   align-items: flex-start;
 }
 @media only screen and (max-width: 767px) {
-  .stacking-content .stacking-img {
+  .Staking-content .Staking-img {
     display: block;
   }
 }
-.stacking-content .stacking-img img {
+.Staking-content .Staking-img img {
   border-radius: 100px;
 }
 @media only screen and (max-width: 767px) {
-  .stacking-content .stacking-img img {
+  .Staking-content .Staking-img img {
     margin-bottom: 30px;
   }
 }
-.stacking-content .stacking-desc {
+.Staking-content .Staking-desc {
   width: 100%;
 }
-.stacking-content .stacking-desc h4, .stacking-content .stacking-desc .h4 {
+.Staking-content .Staking-desc h4, .Staking-content .Staking-desc .h4 {
   font-size: 22px;
 }
-.stacking-content .stacking-desc .stack-info {
+.Staking-content .Staking-desc .stack-info {
   margin: 20px 0px;
 }
-.stacking-content .stacking-desc .stack-info h5, .stacking-content .stacking-desc .stack-info .h5 {
+.Staking-content .Staking-desc .stack-info h5, .Staking-content .Staking-desc .stack-info .h5 {
   font-size: 18px;
 }
-.stacking-content .stacking-desc a {
+.Staking-content .Staking-desc a {
   color: #fff;
   font-weight: 700;
 }
-.stacking-content hr {
+.Staking-content hr {
   margin: 30px 0px;
 }
-.stacking-content .claim-btn {
+.Staking-content .claim-btn {
   margin-top: 13px;
 }
-.stacking-content .btn {
+.Staking-content .btn {
   background: #D01F36;
   color: #fff;
   padding: 10px;
 }
-.stacking-content .btn:hover {
+.Staking-content .btn:hover {
   background: #b11a2e;
 }
 @media only screen and (max-width: 991px) {
-  .stacking-content .btn {
+  .Staking-content .btn {
     margin-bottom: 50px;
   }
 }/*# sourceMappingURL=style.css.map */

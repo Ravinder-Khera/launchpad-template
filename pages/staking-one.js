@@ -34,17 +34,17 @@ const Staking2 = () => {
         <>
             <LayoutFront
                 pageClass={"front"}
-                headTitle={"Stacking"}
-                pageTitle={"Stacking"}
-                pageTitleSub={"Welcome Stacking Page"}
+                headTitle={"Staking"}
+                pageTitle={"Staking"}
+                pageTitleSub={"Welcome Staking Page"}
                 parent={"Home"}
-                child={"Stacking"}>
-                <div className="stacking section-padding">
+                child={"Staking"}>
+                <div className="Staking section-padding">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-6">
                                 <div className="section-title text-start">
-                                    <h2>Stacking</h2>
+                                    <h2>Staking</h2>
                                 </div>
                             </div>
                         </div>
@@ -52,13 +52,13 @@ const Staking2 = () => {
                             <div className="col-xl-12">
                                 {data.map((item, i) => (
                                     <div className="card">
-                                        <div className="stacking-content card-body">
-                                            <div className="stacking-toggle" onClick={() => handleOnClick(item.id)}>
+                                        <div className="Staking-content card-body">
+                                            <div className="Staking-toggle" onClick={() => handleOnClick(item.id)}>
                                                 <i className={activeIndex === item.id ? "bi bi-chevron-down" : "bi bi-chevron-right"}></i>
                                             </div>
-                                            <div className="stacking-img">
+                                            <div className="Staking-img">
                                                 <img src="/launchpad-template/images/igos/1.png" alt="" width={150} className="me-4" />
-                                                <div className="stacking-desc">
+                                                <div className="Staking-desc">
                                                     <h4>GAME LP Staking</h4>
                                                     <span>GAME-BUSD / GAME</span>
                                                     <p>Stake GAME LP tokens to participate in IDOs. Details on <Link href="#">

@@ -1,5 +1,5 @@
-.stacking-content {
-	.stacking-toggle {
+.Staking-content {
+	.Staking-toggle {
 		cursor: pointer;
 		i {
 			font-size: 32px;
@@ -8,7 +8,7 @@
 		}
 	}
 
-	.stacking-img {
+	.Staking-img {
 		display: flex;
 		align-items: flex-start;
 		@include respond("sm") {
@@ -22,7 +22,7 @@
 			}
 		}
 	}
-	.stacking-desc {
+	.Staking-desc {
 		width: 100%;
 		h4 {
 			font-size: 22px;
