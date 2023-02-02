@@ -21,7 +21,7 @@ const ProjectDetails = () => {
                             <div className="col-xl-4">
                                 <div className="explore-details-head">
                                     <h2>Record of Ragnarok</h2>
-                                    <h6>RETH / SSDC</h6>
+                                    <h6>SSDC / SSDC</h6>
 
                                     <div className="badge-group">
                                         <span className="mb-3 badge"> Registered</span>
@@ -36,8 +36,8 @@ const ProjectDetails = () => {
                                             {/* <Link href="/">
                                                 <a className="btn btn-primary">Connect</a>
                                             </Link> */}
-                                            <h5>1 SSDC = 21.9335 RETH</h5>
-                                            <h6>1 RETH = 0.10 SSDC</h6>
+                                            <h5>1 SSDC = 21.9335 SSDC</h5>
+                                            <h6>1 SSDC = 0.10 SSDC</h6>
 
                                             <div className="complete-progress">
                                                 <div className="d-flex justify-content-between">
@@ -56,7 +56,7 @@ const ProjectDetails = () => {
                                                 </div>
                                                 <div className="d-flex justify-content-between">
                                                     <span>0 SSDC</span>
-                                                    <span>0 / {Math.random()} RETH</span>
+                                                    <span>0 / {Math.random()} SSDC</span>
                                                 </div>
                                             </div>
 
@@ -111,7 +111,7 @@ const ProjectDetails = () => {
                                             <ul>
                                                 <li><span>Access Type : </span> 	Levels</li>
                                                 <li><span>Hard Cap : </span> 	${Math.floor(Math.random() * 10000)}</li>
-                                                <li><span>Swap Rate : </span> 	1 RETH = $0.03 | {Math.random()} RETH per 1 SSDC</li>
+                                                <li><span>Swap Rate : </span> 	1 SSDC = $0.03 | {Math.random()} SSDC per 1 SSDC</li>
                                                 <li><span>Start/end : </span> 	13 Apr, 11:00 am –16:00 pm UTC</li>
                                                 <li><span>Registration : </span> 	Apr 11, 11:00 UTC –Apr 13, 08:00 UTC</li>
                                                 <li><span>FCFS Opens : </span> 	Apr 13, 15:40 UTC UTC (20m before the end)</li>
@@ -143,11 +143,11 @@ const ProjectDetails = () => {
                                                 </li>
                                                 <li>
                                                     <span>Initial Supply:</span>
-                                                    {Math.floor(Math.random() * 100000000)} RETH
+                                                    {Math.floor(Math.random() * 100000000)} SSDC
                                                 </li>
                                                 <li>
                                                     <span>Total Supply:</span>
-                                                    {Math.floor(Math.random() * 1000000000)} RETH
+                                                    {Math.floor(Math.random() * 1000000000)} SSDC
                                                 </li>
                                                 <li>
                                                     <span>Initial Market Capitalization:</span>

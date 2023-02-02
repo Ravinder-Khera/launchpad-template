@@ -10,7 +10,7 @@ const ExploreList = () => {
             avatar: "a1.png",
             description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
             link: "/explore-details1",
-            price: "1 RETH = 0.01 BUSD",
+            price: "1 MNFT = 0.01 BUSD",
             date: "April 7, 11:00 UTC",
             raise: "25,000"
         },
@@ -26,18 +26,18 @@ const ExploreList = () => {
             raise: "49,000"
         },
         {
-            id: 2,
+            id: 3,
             title: "CODYFIGHT",
             img: "c3.png",
             avatar: "a3.png",
             description: "CODYFIGHT is a series written and illustrated by Tite Kubo. It follows the adventures of a teenager Ichigo Kurosaki, who inherits his parents' destiny after he obtains the powers of a Soul Reaper—a death personification similar to the Grim Reaper—from another Soul Reaper, Rukia Kuchiki. His new-found powers allow him to take on the duties of defending humans from evil spirits and guiding departed souls to the afterlife, and set him on journeys to various ghostly realms of existence.",
             link: "/explore-details3",
-            price: "1 RETH = 0.03 BUDC",
+            price: "1 CDF = 0.03 BUDC",
             date: "June 8, 09:00 UTC",
             raise: "36,000"
         },
         {
-            id: 2,
+            id: 4,
             title: "MoBox",
             img: "c4.png",
             avatar: "a4.jpg",
@@ -72,7 +72,7 @@ const ExploreList = () => {
                                 <h4 className="card-title">
                                     {item.title}
                                 </h4>
-                                <span>$RETH</span>
+                                <span>$BUSD</span>
                                 <div className="game-social">
 
                                     <Link href="#">
