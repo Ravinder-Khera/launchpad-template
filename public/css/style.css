@@ -9803,6 +9803,7 @@ button,
       width: 100px;
       height: 100px;
       object-fit: contain;
+      background: #0E0B2B;
       border: 2px solid #D01F36; }
     .explore-list .explore-list-profile h4, .explore-list .explore-list-profile .h4 {
       font-size: 22px; }

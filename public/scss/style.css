@@ -12711,6 +12711,7 @@ button:hover, button:focus, button:active,
   height: 100px;
   -o-object-fit: contain;
      object-fit: contain;
+  background: #0E0B2B;
   border: 2px solid #D01F36;
 }
 .explore-list .explore-list-profile h4, .explore-list .explore-list-profile .h4 {

@@ -41,7 +41,7 @@ const ExploreList = () => {
             title: "MoBox",
             img: "c4.png",
             avatar: "a4.jpg",
-            description: "The story follows Asta and Yuno as they crawl their way up the ladder of the Clover Kingdom's Order of the Magic Knights, in the midst of scrutiny by the nobles, to become the Wizard King. However, the title is only preserved for a single mage.",
+            description: "The story follows Asta and Yuno as they crawl their way up the ladder of the Cloverer Kingdom's Order of the Magic Knights, in the midst of scrutiny by the nobles, to become the Wizard King. However, the title is only preserved for a single mage.",
             link: "/explore-details4",
             price: "1 USTD = 0.01 BUSD",
             date: "May 10, 10:00 UTC",
