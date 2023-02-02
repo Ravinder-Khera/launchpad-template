@@ -122,7 +122,7 @@ const ProjectDetails = () => {
                                 <div className="card">
                                     <div className="card-header">
                                         <h4 className="card-title">Price</h4>
-                                        <h5>Listing:$0.03</h5>
+                                        <h5>Listing:${Math.random().toString().substring(0, 4) }</h5>
                                     </div>
                                 </div>
 
