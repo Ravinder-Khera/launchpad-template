@@ -121,15 +121,15 @@ const Index = () => {
 							</div>
 							<div className="col-lg-6">
 								<div className="what-we-do-content">
-									<span>WELCOME TO GigoSTARTER</span>
+									<span>WELCOME TO Moon Ride STARTER</span>
 									<h3>What We Do</h3>
 									<p>
 										We’re a blockchain gaming launchpad
-										focused on growing the Gigo ecosystem
+										focused on growing the Moon Ride ecosystem
 										and the metaverse.
 									</p>
 									<p>
-										Built on Gigo’s JumpNet with a roadmap
+										Built on Moon Ride’s JumpNet with a roadmap
 										towards Efinity, our proprietary
 										platform will enable creators and game
 										developers to run capital-raising
@@ -215,10 +215,10 @@ const Index = () => {
 										class="img-fluid rounded"
 										alt=""
 									/>
-									<h3>Embrace the Gigo Ecosystem</h3>
+									<h3>Embrace the Moon Ride Ecosystem</h3>
 									<p>
 										We help creators and game development
-										studios embrace Gigo robust blockchain
+										studios embrace Moon Ride robust blockchain
 										ecosystem for their Bblockchain and
 										digital asset strategies. We will guide
 										developers on integrating and move their
@@ -233,10 +233,10 @@ const Index = () => {
 										class="img-fluid rounded"
 										alt=""
 									/>
-									<h3>Embrace the Gigo Ecosystem</h3>
+									<h3>Embrace the Moon Ride Ecosystem</h3>
 									<p>
 										We help creators and game development
-										studios embrace Gigo robust blockchain
+										studios embrace Moon Ride robust blockchain
 										ecosystem for their Bblockchain and
 										digital asset strategies. We will guide
 										developers on integrating and move their
@@ -254,7 +254,7 @@ const Index = () => {
 						<div className="row">
 							<div className="col-xl-12">
 								<div className="section-title">
-									<h2>Built On Gigo's Jumpnet Blockchain</h2>
+									<h2>Built On Moon Ride's Jumpnet Blockchain</h2>
 								</div>
 							</div>
 						</div>

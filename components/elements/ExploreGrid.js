@@ -23,7 +23,7 @@ const ExploreGrid = () => {
             description: "Every 1000 years, the Gods' Council assemble to decide the fate of humanity. After 7 million years of human history, the gods come to the decision that humans are irredeemable and must be extinct.",
             link: "/explore-details2",
             price: "1 BNB = 0.2 SSDC",
-            date: "Feb 21, 07:00 UTC",
+            date: "Feb 21 , 07:00 UTC",
             raise: "49,000"
         },
         {
@@ -34,7 +34,7 @@ const ExploreGrid = () => {
             description: "CODYFIGHT is a series written and illustrated by Tite Kubo. It follows the adventures of a teenager Ichigo Kurosaki, who inherits his parents' destiny after he obtains the powers of a Soul Reaper—a death personification similar to the Grim Reaper—from another Soul Reaper, Rukia Kuchiki. His new-found powers allow him to take on the duties of defending humans from evil spirits and guiding departed souls to the afterlife, and set him on journeys to various ghostly realms of existence.",
             link: "/explore-details3",
             price: "1 CDF = 0.03 BUDC",
-            date: "June 8, 09:00 UTC",
+            date: "June 8 , 09:00 UTC",
             raise: "36,000"
         },
         {
@@ -45,7 +45,7 @@ const ExploreGrid = () => {
             description: "The story follows Asta and Yuno as they crawl their way up the ladder of the Cloverer Kingdom's Order of the Magic Knights, in the midst of scrutiny by the nobles, to become the Wizard King. However, the title is only preserved for a single mage.",
             link: "/explore-details4",
             price: "1 USTD = 0.01 BUSD",
-            date: "May 10, 10:00 UTC",
+            date: "May 10 , 10:00 UTC",
             raise: "52,000"
         },
     ];
@@ -57,7 +57,7 @@ const ExploreGrid = () => {
                 <div className="col-xl-6" key={i}>
                     <div className="explore-grid">
                         <div className="igo-status">
-                            TBA
+                            {item.date.substring(0,7)}
                         </div>
                         <div className="explore-grid-content">
                             <img src={`/launchpad-template/images/items/${item.img}`} alt="" className="me-4" />

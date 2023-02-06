@@ -16,7 +16,7 @@ const Bottom = () => {
                                 />
 
                                 <p>
-                                    Gigo is a unique and beautiful
+                                    Moon Ride is a unique and beautiful
                                     collection of UI elements that are all
                                     flexible and modular. A complete and
                                     customizable solution to building the
@@ -29,16 +29,16 @@ const Bottom = () => {
                                 <h4 className="widget-title">About us</h4>
                                 <ul>
                                     <li>
-                                        <Link href="/explore"><a>Explore</a></Link>
+                                        <Link href="/explore-grid"><a>Explore</a></Link>
                                     </li>
                                     <li>
-                                        <Link href="/item"><a>Item</a></Link>
+                                        <Link href="#"><a>Item</a></Link>
                                     </li>
                                     <li>
-                                        <Link href="/collection"><a>Collection</a></Link>
+                                        <Link href="#"><a>Collection</a></Link>
                                     </li>
                                     <li>
-                                        <Link href="/connect"><a>Connect</a></Link>
+                                        <Link href="#"><a>Connect</a></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -48,16 +48,16 @@ const Bottom = () => {
                                 <h4 className="widget-title">Settings</h4>
                                 <ul>
                                     <li>
-                                        <Link href="/settings"><a>Settings</a></Link>
+                                        <Link href="#"><a>Settings</a></Link>
                                     </li>
                                     <li>
-                                        <Link href="/application"><a>Application</a></Link>
+                                        <Link href="#"><a>Application</a></Link>
                                     </li>
                                     <li>
-                                        <Link href="/security"><a>Security</a></Link>
+                                        <Link href="#"><a>Security</a></Link>
                                     </li>
                                     <li>
-                                        <Link href="/activity"><a>Activity</a></Link>
+                                        <Link href="#"><a>Activity</a></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -69,16 +69,16 @@ const Bottom = () => {
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                                         <ul>
                                             <li>
-                                                <Link href="/profile"><a>Profile</a></Link>
+                                                <Link href="#"><a>Profile</a></Link>
                                             </li>
                                             <li>
-                                                <Link href="/created"><a>Created</a></Link>
+                                                <Link href="#"><a>Created</a></Link>
                                             </li>
                                             <li>
-                                                <Link href="/collected"><a>Collected</a></Link>
+                                                <Link href="/#"><a>Collected</a></Link>
                                             </li>
                                             <li>
-                                                <Link href="/activity"><a>Activity</a></Link>
+                                                <Link href="#"><a>Activity</a></Link>
                                             </li>
 
                                         </ul>
@@ -86,16 +86,16 @@ const Bottom = () => {
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                                         <ul>
                                             <li>
-                                                <Link href="/onsale"><a>On Sale</a></Link>
+                                                <Link href="#"><a>On Sale</a></Link>
                                             </li>
                                             <li>
-                                                <Link href="/liked"><a>Liked</a></Link>
+                                                <Link href="#"><a>Liked</a></Link>
                                             </li>
                                             <li>
-                                                <Link href="/following"><a>Following</a></Link>
+                                                <Link href="#"><a>Following</a></Link>
                                             </li>
                                             <li>
-                                                <Link href="/followers"><a>Followers</a></Link>
+                                                <Link href="#"><a>Followers</a></Link>
                                             </li>
                                         </ul>
                                     </div>
