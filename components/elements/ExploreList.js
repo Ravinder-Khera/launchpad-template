@@ -89,7 +89,7 @@ const ExploreList = () => {
 
 
                             <p>
-                                {item.description.substring(0,100)} ...
+                                {item.description.length > 90 ? item.description.substring(0,90)+'...' :item.description }
                             </p>
                             <div className="d-flex justify-content-between align-items-center">
 

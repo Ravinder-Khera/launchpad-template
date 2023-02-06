@@ -63,7 +63,11 @@ const ExploreGrid = () => {
                             <img src={`/launchpad-template/images/items/${item.img}`} alt="" className="me-4" />
                             <div className="game-desc">
                                 <h4>{item.title}</h4>
-                                <p>{item.description.substring(0,100)} ...</p>
+                                {item.description.length > 100 ? 
+                                    <p>{item.description.substring(0,100)} ...</p> 
+                                :
+                                    <p>{item.description}</p> 
+                                }
                                 <div className="game-social">
 
                                     <Link href="#">

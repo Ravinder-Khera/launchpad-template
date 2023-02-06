@@ -30,7 +30,7 @@ const TeamMember = () => {
         <>
             {data.map((item, i) => (
 
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-3 col-md-6" key={i}>
                     <div className="team-content">
                         <img src={`/launchpad-template/images/avatar/${item.img}`} alt="" width={100} />
                         <h3>John Abraham</h3>
