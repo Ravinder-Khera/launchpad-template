@@ -20,7 +20,7 @@ const ProjectDetails = () => {
                             <div className="col-xl-4">
                                 <div className="explore-details-head">
                                     <h2>War of Fury</h2>
-                                    <h6>MNFD / BUSD</h6>
+                                    <h6>MNFD / USDT</h6>
 
                                     <div className="badge-group">
                                         <span className="mb-3 badge"> Registered</span>
@@ -35,8 +35,8 @@ const ProjectDetails = () => {
                                             {/* <Link href="/">
                                                 <a className="btn btn-primary">Connect</a>
                                             </Link> */}
-                                            <h5>1 BUSD = 29.3339 MNFD</h5>
-                                            <h6>1 MNFD = 0.03 BUSD</h6>
+                                            <h5>1 USDT = 29.3339 MNFD</h5>
+                                            <h6>1 MNFD = 0.03 USDT</h6>
 
                                             <div className="complete-progress">
                                                 <div className="d-flex justify-content-between">
@@ -54,7 +54,7 @@ const ProjectDetails = () => {
                                                     />
                                                 </div>
                                                 <div className="d-flex justify-content-between">
-                                                    <span>0 BUSD</span>
+                                                    <span>0 USDT</span>
                                                     <span>0 / {Math.random()} MNFD</span>
                                                 </div>
                                             </div>
@@ -110,7 +110,7 @@ const ProjectDetails = () => {
                                             <ul>
                                                 <li><span>Access Type : </span> 	Levels</li>
                                                 <li><span>Hard Cap : </span> 	${Math.floor(Math.random() * 10000)}</li>
-                                                <li><span>Swap Rate : </span> 	1 MNFD = $0.03 | {Math.random()} MNFD per 1 BUSD</li>
+                                                <li><span>Swap Rate : </span> 	1 MNFD = $0.03 | {Math.random()} MNFD per 1 USDT</li>
                                                 <li><span>Start/end : </span> 	13 Apr, 11:00 am –16:00 pm UTC</li>
                                                 <li><span>Registration : </span> 	Apr 11, 11:00 UTC –Apr 13, 08:00 UTC</li>
                                                 <li><span>FCFS Opens : </span> 	Apr 13, 15:40 UTC UTC (20m before the end)</li>
@@ -158,7 +158,7 @@ const ProjectDetails = () => {
                                                 </li>
                                                 <li>
                                                     <span>Platform Allocation:</span>
-                                                    BUSD {Math.floor(Math.random() * 1000000)}
+                                                    USDT {Math.floor(Math.random() * 1000000)}
                                                 </li>
                                                 <li>
                                                     <span>Vesting Details:</span>

@@ -20,7 +20,7 @@ const ProjectDetails = () => {
                             <div className="col-xl-4">
                                 <div className="explore-details-head">
                                     <h2>CODYFIGHT</h2>
-                                    <h6>CDF / BUDC</h6>
+                                    <h6>CDF / ETH</h6>
 
                                     <div className="badge-group">
                                         <span className="mb-3 badge"> Registered</span>
@@ -35,8 +35,8 @@ const ProjectDetails = () => {
                                             {/* <Link href="/">
                                                 <a className="btn btn-primary">Connect</a>
                                             </Link> */}
-                                            <h5>1 BUDC = 35.4991 CDF</h5>
-                                            <h6>1 CDF = 0.23 BUDC</h6>
+                                            <h5>1 ETH = 35.4991 CDF</h5>
+                                            <h6>1 CDF = 0.23 ETH</h6>
 
                                             <div className="complete-progress">
                                                 <div className="d-flex justify-content-between">
@@ -54,7 +54,7 @@ const ProjectDetails = () => {
                                                     />
                                                 </div>
                                                 <div className="d-flex justify-content-between">
-                                                    <span>0 BUDC</span>
+                                                    <span>0 ETH</span>
                                                     <span>0 / {Math.random()} CDF</span>
                                                 </div>
                                             </div>
@@ -111,7 +111,7 @@ const ProjectDetails = () => {
                                             <ul>
                                                 <li><span>Access Type : </span> 	Levels</li>
                                                 <li><span>Hard Cap : </span> 	${Math.floor(Math.random() * 10000)}</li>
-                                                <li><span>Swap Rate : </span> 	1 CDF = $0.03 | {Math.random()} CDF per 1 BUDC</li>
+                                                <li><span>Swap Rate : </span> 	1 CDF = $0.03 | {Math.random()} CDF per 1 ETH</li>
                                                 <li><span>Start/end : </span> 	13 Apr, 11:00 am –16:00 pm UTC</li>
                                                 <li><span>Registration : </span> 	Apr 11, 11:00 UTC –Apr 13, 08:00 UTC</li>
                                                 <li><span>FCFS Opens : </span> 	Apr 13, 15:40 UTC UTC (20m before the end)</li>
@@ -159,7 +159,7 @@ const ProjectDetails = () => {
                                                 </li>
                                                 <li>
                                                     <span>Platform Allocation:</span>
-                                                    BUDC {Math.floor(Math.random() * 1000000)}
+                                                    ETH {Math.floor(Math.random() * 1000000)}
                                                 </li>
                                                 <li>
                                                     <span>Vesting Details:</span>
