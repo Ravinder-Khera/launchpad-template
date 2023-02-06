@@ -204,7 +204,8 @@ const Index = () => {
 					</div>
 				</div>
 
-				<div className="creating section-padding">
+{/* hidden  section */}
+				<div className="creating section-padding d-none">
 					<div className="container">
 						<div className="row">
 							<div className="col-md-6">
@@ -247,7 +248,8 @@ const Index = () => {
 					</div>
 				</div>
 
-				<div className="built-in section-padding">
+{/* hidden section */}
+				<div className="built-in section-padding d-none">
 					<div className="container">
 						<div className="row">
 							<div className="col-xl-12">

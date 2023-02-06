@@ -10,8 +10,11 @@ const ExploreList = () => {
             avatar: "a1.png",
             description: "War of Fury is a battle arena game built on Unity with rich 3D visuals and numerous addictive single & multiplayer gameplay modes. It has a 1-token deflationary in-game economy where FURY is at the centre of the game with lots of utility & ever increasing demand.",
             link: "/explore-details1",
-            price: "1 MNFT = 0.01 BUSD",
+            $: "USDT",
+            token: "FURY",
+            price: "1 FURY = 0.01 ",
             date: "April 7, 11:00 UTC",
+            listDate: "May 9, 11:00 UTC",
             raise: "25,000"
         },
         {
@@ -21,8 +24,11 @@ const ExploreList = () => {
             avatar: "a2.png",
             description: "Every 1000 years, the Gods' Council assemble to decide the fate of humanity. After 7 million years of human history, the gods come to the decision that humans are irredeemable and must be extinct.",
             link: "/explore-details2",
-            price: "1 BNB = 0.2 SSDC",
+            $: "BUSD",
+            token: "RR",
+            price: "1 RR = 0.2 ",
             date: "Feb 21, 07:00 UTC",
+            listDate: "March 25, 07:00 UTC",
             raise: "49,000"
         },
         {
@@ -32,8 +38,11 @@ const ExploreList = () => {
             avatar: "a3.png",
             description: "CODYFIGHT is a series written and illustrated by Tite Kubo. It follows the adventures of a teenager Ichigo Kurosaki, who inherits his parents' destiny after he obtains the powers of a Soul Reaper—a death personification similar to the Grim Reaper—from another Soul Reaper, Rukia Kuchiki. His new-found powers allow him to take on the duties of defending humans from evil spirits and guiding departed souls to the afterlife, and set him on journeys to various ghostly realms of existence.",
             link: "/explore-details3",
-            price: "1 CDF = 0.03 BUDC",
+            $: "ETH",
+            token: "CDF",
+            price: "1 CDF = 0.03 ",
             date: "June 8, 09:00 UTC",
+            listDate: "July 10, 09:00 UTC",
             raise: "36,000"
         },
         {
@@ -43,8 +52,11 @@ const ExploreList = () => {
             avatar: "a4.jpg",
             description: "The story follows Asta and Yuno as they crawl their way up the ladder of the Cloverer Kingdom's Order of the Magic Knights, in the midst of scrutiny by the nobles, to become the Wizard King. However, the title is only preserved for a single mage.",
             link: "/explore-details4",
-            price: "1 USTD = 0.01 BUSD",
+            $: "MATIC",
+            token: "MBX",
+            price: "1 MBX = 0.01 ",
             date: "May 10, 10:00 UTC",
+            listDate: "June 12, 10:00 UTC",
             raise: "52,000"
         },
     ];
@@ -72,7 +84,7 @@ const ExploreList = () => {
                                 <h4 className="card-title">
                                     {item.title}
                                 </h4>
-                                <span>$BUSD</span>
+                                <span>{item.$}</span>
                                 <div className="game-social">
 
                                     <Link href="#">
@@ -102,12 +114,12 @@ const ExploreList = () => {
                             </div>
                             <div className="d-flex justify-content-between align-items-center">
                                 <span>Price</span>
-                                <h5> {item.price}</h5>
+                                <h5> {item.price}{item.$}</h5>
                             </div>
 
                             <div className="complete-progress">
                                 <div className="d-flex justify-content-between">
-                                    <span>registration opens in 2 days, 3 hours</span>
+                                    <span>registration opens in {Math.floor(Math.random() * 10)} days, {Math.floor(Math.random() * 10)} hours</span>
                                     <span>0%</span>
                                 </div>
                                 <div className="progress">
@@ -121,19 +133,19 @@ const ExploreList = () => {
                                     />
                                 </div>
                                 <div className="d-flex justify-content-between">
-                                    <span>0 BUSD</span>
-                                    <span>0 / 568742648.35 RETH</span>
+                                    <span>0 {item.$}</span>
+                                    <span>0 / {Math.floor(Math.random() * 100000)}.{Math.floor(Math.random() * 100)} {item.token}</span>
                                 </div>
                             </div>
 
                             <div className="d-flex justify-content-between">
                                 <div>
                                     <span>1x(approx)=</span>
-                                    <h6>$33.17</h6>
+                                    <h6>${Math.floor(Math.random() * 100)}.{Math.floor(Math.random() * 100)}</h6>
                                 </div>
                                 <div className='text-end'>
                                     <span>Listing Time</span>
-                                    <h6>April 15, 2022 11:00 UTC</h6>
+                                    <h6>{item.listDate}</h6>
                                 </div>
                             </div>
                             <hr />

@@ -9,8 +9,8 @@ const CompleteList = () => {
             title: "Jungle Road",
             img: "cc1.jpg",
             description: "Here at Jungle Road, players can explore wild landscapes with their very own unique, strong, and diverse animal gods. Each character comes from a different origin and is on a quest to reach Nirvana. In these maps, you will come across rivers and lands of all sorts, filled with wild animal attacks and many obstacles to overcome. This journey will not be easy nor safe. This blockchain game will take you back to the good old days of when you were a kid and would escape your daily life chores and just have fun. But now with NFTs, we are able to do this and also earn as we play.",
-            start: "28 Mar,11:00 UTC",
-            price: "1 PRIDE = 0.1 BUSD",
+            start: "19 Mar,11:00 UTC",
+            price: "1 JGRD = 0.9 BUSD",
             currency: "BUSD/JGRD",
             link: "/explore-details1-comp"
         },
@@ -29,7 +29,7 @@ const CompleteList = () => {
             title: "Samurai Legends",
             img: "cc3.png",
             description: "Samurai Legends is a GameFi metaverse set in feudal Japan. Rule digital patches of land, build, battle and earn riches in your quest to become shogun of the metaverse! A combination of NFTs, play-to-earn mechanics and samurai aesthetics make Samurai Legends one of the most standout gaming experiences on Binance Smart Chain.",
-            start: "26 Mar,11:00 UTC",
+            start: "26 May,11:00 UTC",
             price: "1 SMG = 0.060002 BUSD",
             currency: "BUSD/SMG",
             link: "/explore-details3-comp"
@@ -74,7 +74,7 @@ const CompleteList = () => {
                                     <div
                                         className="progress-bar"
                                         role="progressbar"
-                                        style={{ width: "50%" }}
+                                        style={{ width: "98%" }}
                                         aria-valuenow={50}
                                         aria-valuemin={0}
                                         aria-valuemax={100}

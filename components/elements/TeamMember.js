@@ -6,23 +6,27 @@ const TeamMember = () => {
     const data = [
         {
             id: 1,
-            title: "Avy",
+            title: "FOUNDER & CEO",
             img: "person.png",
+            name:"Ralph Kalsi",
         },
         {
             id: 2,
-            title: "Mark",
+            name: "M Sexton",
             img: "person.png",
+            title: "CTO | CHIEF TECHNICAL OFFICER"
         },
         {
             id: 2,
-            title: "Mark",
+            name: "H Zappino",
             img: "person.png",
+            title:"DIRECTOR & CLO"
         },
         {
             id: 2,
-            title: "Mark",
+            name: "Davvy",
             img: "person.png",
+            title: "MANAGING DIRECTOR"
         },
     ];
 
@@ -33,8 +37,8 @@ const TeamMember = () => {
                 <div className="col-lg-3 col-md-6" key={i}>
                     <div className="team-content">
                         <img src={`/launchpad-template/images/avatar/${item.img}`} alt="" width={100} />
-                        <h3>John Abraham</h3>
-                        <p>Cheif Executive Officer</p>
+                        <h3>{item.name}</h3>
+                        <p>{item.title}</p>
                         <div className="team-social">
                             <Link href="#">
                                 <a><i className="bi bi-facebook"></i></a>
