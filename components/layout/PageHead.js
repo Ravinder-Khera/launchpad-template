@@ -6,7 +6,7 @@ function PageHead({ headTitle }) {
                 <title>
                     {headTitle ? headTitle : "Launchpad Web App"}
                 </title>
-                <link rel="icon" href="/favicon.png" />
+                <link rel="icon" href="/launchpad-template/favicon.png" />
             </Head>
         </>
     );
