@@ -21,7 +21,7 @@ const CompleteList = () => {
             description: "Nomad Exiles is an addictive crypto RPG with integrated NFT and free to play mechanics! The project is based on an existing mobile game, Exile Survival, which has millions of installations worldwide and 200,000 monthly active players with a rating of 4.7. The game is being developed by a team whose members have been working on such projects as Age of Magic, Mighty Party, Dragon Age: Inquisition, Star Wars: The Old Republic, and Dragons World.",
             start: "28 Mar,11:00 UTC",
             price: "1 PRIDE = 0.1 BUSD",
-            currency: "BUSD/PIDE",
+            currency: "BUSD/PRIDE",
             link: "/explore-details2-comp"
         },
         {
@@ -63,7 +63,7 @@ const CompleteList = () => {
                                 {item.title}
                             </h4>
                             {item.description.length > 100 ? 
-                                <p>{item.description.substring(0,100)} ...</p> 
+                                <p>{item.description.substring(0,100)}...</p> 
                             :
                                 <p>{item.description}</p> 
                             }

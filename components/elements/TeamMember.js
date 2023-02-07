@@ -36,7 +36,7 @@ const TeamMember = () => {
 
                 <div className="col-lg-3 col-md-6" key={i}>
                     <div className="team-content">
-                        <img src={`/launchpad-template/images/avatar/${item.img}`} alt={item.title} width={100} />
+                        <img src={`/launchpad-template/images/avatar/${item.img}`} alt={item.name} width={100} />
                         <h3>{item.name}</h3>
                         <p>{item.title}</p>
                         <div className="team-social">
