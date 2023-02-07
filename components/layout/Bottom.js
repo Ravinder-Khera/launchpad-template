@@ -32,13 +32,16 @@ const Bottom = () => {
                                         <Link href="/explore-grid"><a>Explore</a></Link>
                                     </li>
                                     <li>
-                                        <Link href="#"><a>Item</a></Link>
+                                        <a>Item</a>
+                                        {/* <Link href="#"><a>Item</a></Link> */}
                                     </li>
                                     <li>
-                                        <Link href="#"><a>Collection</a></Link>
+                                        <a>Collection</a>
+                                        {/* <Link href="#"><a>Collection</a></Link> */}
                                     </li>
                                     <li>
-                                        <Link href="#"><a>Connect</a></Link>
+                                        <a>Connect</a>
+                                        {/* <Link href="#"><a>Connect</a></Link> */}
                                     </li>
                                 </ul>
                             </div>
@@ -48,16 +51,20 @@ const Bottom = () => {
                                 <h4 className="widget-title">Settings</h4>
                                 <ul>
                                     <li>
-                                        <Link href="#"><a>Settings</a></Link>
+                                        <a>Settings</a>
+                                        {/* <Link href="#"><a>Settings</a></Link> */}
                                     </li>
                                     <li>
-                                        <Link href="#"><a>Application</a></Link>
+                                        <a>Application</a>
+                                        {/* <Link href="#"><a>Application</a></Link> */}
                                     </li>
                                     <li>
-                                        <Link href="#"><a>Security</a></Link>
+                                        <a>Security</a>
+                                        {/* <Link href="#"><a>Security</a></Link> */}
                                     </li>
                                     <li>
-                                        <Link href="#"><a>Activity</a></Link>
+                                        <a>Activity</a>
+                                        {/* <Link href="#"><a>Activity</a></Link> */}
                                     </li>
                                 </ul>
                             </div>
@@ -69,16 +76,20 @@ const Bottom = () => {
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                                         <ul>
                                             <li>
-                                                <Link href="#"><a>Profile</a></Link>
+                                                <a disabled>Profile</a>
+                                                {/* <Link href="#" ><a >Profile</a></Link> */}
                                             </li>
                                             <li>
-                                                <Link href="#"><a>Created</a></Link>
+                                                <a>Created</a>
+                                                {/* <Link href="#"><a>Created</a></Link> */}
                                             </li>
                                             <li>
-                                                <Link href="/#"><a>Collected</a></Link>
+                                                <a>Collected</a>
+                                                {/* <Link href="/#"><a>Collected</a></Link> */}
                                             </li>
                                             <li>
-                                                <Link href="#"><a>Activity</a></Link>
+                                                <a>Activity</a>
+                                                {/* <Link href="#"><a>Activity</a></Link> */}
                                             </li>
 
                                         </ul>
@@ -86,16 +97,20 @@ const Bottom = () => {
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                                         <ul>
                                             <li>
-                                                <Link href="#"><a>On Sale</a></Link>
+                                                <a>On Sale</a>
+                                                {/* <Link href="#"><a>On Sale</a></Link> */}
                                             </li>
                                             <li>
+                                                <a>Liked</a>
                                                 <Link href="#"><a>Liked</a></Link>
                                             </li>
                                             <li>
-                                                <Link href="#"><a>Following</a></Link>
+                                                <a>Following</a>
+                                                {/* <Link href="#"><a>Following</a></Link> */}
                                             </li>
                                             <li>
-                                                <Link href="#"><a>Followers</a></Link>
+                                                <a>Followers</a>
+                                                {/* <Link href="#"><a>Followers</a></Link> */}
                                             </li>
                                         </ul>
                                     </div>

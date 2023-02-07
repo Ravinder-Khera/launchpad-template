@@ -126,7 +126,7 @@ const ExploreList = () => {
                                     <div
                                         className="progress-bar"
                                         role="progressbar"
-                                        style={{ width: "50%" }}
+                                        style={{ width: "5%" }}
                                         aria-valuenow={50}
                                         aria-valuemin={0}
                                         aria-valuemax={100}

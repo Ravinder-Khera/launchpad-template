@@ -2,34 +2,52 @@ import LayoutFront from "../components/layout/LayoutFront";
 
 const Leaderboard = () => {
 
+    const getRanHex = size => {
+        let result = [];
+        let hexRef = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
+      
+        for (let n = 0; n < size; n++) {
+          result.push(hexRef[Math.floor(Math.random() * 16)]);
+        }
+        return result.join('');
+      }
+      
     const data = [
         {
             id: 1,
-            title: "Avy"
+            title: "Olivia",
         },
         {
             id: 2,
-            title: "Mark"
+            title: "Ethan",
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 3,
+            title: "Elijah",
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 4,
+            title: "Liam",
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 5,
+            title: "Sophia",
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 6,
+            title: "Jackson",
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 7,
+            title: "Mia",
+        },
+        {
+            id: 8,
+            title: "Aiden",
+        },
+        {
+            id: 9,
+            title: "Charlotte",
         },
     ];
 
@@ -62,12 +80,12 @@ const Leaderboard = () => {
                                                     <th>Balance</th>
                                                 </tr>
                                                 {data.map((item, i) => (
-                                                    <tr>
-                                                        <td>01</td>
-                                                        <td>John Doe</td>
-                                                        <td>0x95e441....ddd97400</td>
-                                                        <td>365 Days</td>
-                                                        <td>$305,626.99</td>
+                                                    <tr key={i}>
+                                                        <td>{item.id}</td>
+                                                        <td>{item.title}</td>
+                                                        <td>{"0x"+getRanHex(6)+"..."+getRanHex(8)}</td>
+                                                        <td>{Math.floor(50 + Math.random() *(300 - 50 + 1))} Days</td>
+                                                        <td>${Math.floor(50 + Math.random() *(300 - 50 + 1))},{Math.floor(Math.random() *1000)}.{Math.floor(Math.random() *100)}</td>
                                                     </tr>
                                                 ))}
 

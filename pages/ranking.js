@@ -5,27 +5,27 @@ const IgoRanking = () => {
     const data = [
         {
             id: 1,
-            title: "Avy"
+            title: "Galactic Quest"
         },
         {
             id: 2,
-            title: "Mark"
+            title: "Eternal Adventure"
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 3,
+            title: "Mystery Realm"
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 4,
+            title: "Chrono Chronicles"
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 5,
+            title: "Shadow Legacy"
         },
         {
-            id: 2,
-            title: "Mark"
+            id: 6,
+            title: "Crystal Kingdom"
         },
     ];
 
@@ -59,14 +59,14 @@ const IgoRanking = () => {
                                                     <th>IGO ROI</th>
                                                 </tr>
                                                 {data.map((item, i) => (
-                                                    <tr>
-                                                        <td>01</td>
-                                                        <td><img src="/launchpad-template/images/items/1.jpg" alt="Previous-Image" width={30} /> Dragon Run (DCON)</td>
-                                                        <td>$25.00</td>
-                                                        <td>3.88%</td>
-                                                        <td>$26.99</td>
-                                                        <td>$1.7M</td>
-                                                        <td>54.096x</td>
+                                                    <tr key={i}>
+                                                        <td>0{i+1}</td>
+                                                        <td><img src={"/launchpad-template/images/items/cc"+i+".png"} alt="GAME " width={30} /> {item.title}</td>
+                                                        <td>${Math.floor(Math.random() * 100)+"."+Math.floor(Math.random() * 100)}</td>
+                                                        <td>{Math.floor(Math.random() * 10)+"."+Math.floor(Math.random() * 100)+"%"}</td>
+                                                        <td>{"$"+Math.floor(Math.random() * 100)+"."+Math.floor(Math.random() * 100)}</td>
+                                                        <td>{"$"+Math.floor(Math.random() * 10)+"."+Math.floor(Math.random() * 10)+"M"}</td>
+                                                        <td>{Math.floor(Math.random() * 100)+".0"+Math.floor(Math.random() * 100)+"x"}</td>
                                                     </tr>
                                                 ))}
 

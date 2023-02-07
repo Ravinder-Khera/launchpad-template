@@ -13207,7 +13207,9 @@ button:hover, button:focus, button:active,
   border: 1px solid #fff;
   display: inline-block;
   background: #373737;
-  border-radius: 100px;
+  border-radius: 50%;
+  height: 100px;
+  text-align: center;
 }
 .team-content h3, .team-content .h3 {
   font-size: 22px;
