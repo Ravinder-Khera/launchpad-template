@@ -25,7 +25,7 @@ const TeamMember = () => {
         {
             id: 2,
             name: "Davvy",
-            img: "person.png",
+            img: "davvy.jpeg",
             title: "MANAGING DIRECTOR"
         },
     ];
